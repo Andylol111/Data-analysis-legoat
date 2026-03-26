@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Custom charts & assistant{% endblock %}
+{% block head_extra %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" crossorigin="anonymous"></script>
+{% endblock %}
+{% block body %}
+<header class="page-head">
+  <h1>Custom charts & grounded assistant</h1>
+  <p class="sub">Pick a dataset from <code>outputs/</code>, map <strong>X</strong> and <strong>Y</strong>, then render. The assistant only uses data bundled in your latest run (see <a href="{{ url_for('methods') }}">methods status</a>).</p>
+</header>
+
+<section class="card">
+  <h2>Chart builder</h2>
+  <div class="form-grid">
+    <label>Dataset (CSV)
+      <select id="ds-file"></select>
+    </label>
+    <label>X column
+      <select id="ds-x"></select>
+    </label>
+    <label>Y column (numeric works best)
+      <select id="ds-y"></select>
+    </label>
+    <label>Chart type
+      <select id="ds-chart">
+        <option value="bar">Bar</option>
+        <option value="line">Line</option>
+        <option value="scatter">Scatter</option>
+      </select>
+    </label>
+    <label>Aggregate (bar only)
+      <select id="ds-agg">
+        <option value="none">None (rows)</option>
+        <option value="sum">Sum Y by X</option>
+        <option value="mean">Mean Y by X</option>
+      </select>
+    </label>
+    <label>Row cap
+      <input type="number" id="ds-limit" value="60" min="5" max="500" />
+    </label>
+  </div>
+  <p class="btn-row">
+    <button type="button" id="btn-render" class="btn">Render chart</button>
+    <button type="button" id="btn-export-all" class="btn btn-secondary" disabled title="PNG + CSV for the current chart">Export all</button>
+  </p>
+  <p id="chart-err" class="err"></p>
+  <div class="chart-box">
+    <canvas id="chart-main" height="120"></canvas>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Local LLM (Ollama) — analysis only</h2>
+  <p class="small">Runs on your machine. Answers must follow the <strong>CONTEXT</strong> built from <code>outputs/</code> + <code>docs/METHODS_STATUS.md</code>. Install: <a href="https://ollama.com" target="_blank" rel="noopener">ollama.com</a>, then <code>ollama pull llama3.2</code>. Optional: <code>export OLLAMA_MODEL=…</code></p>
+  <textarea id="chat-in" rows="4" placeholder="Ask about lift, cohorts, which file to open, or what the eleven methods mean in this project…"></textarea>
+  <p><button type="button" id="btn-chat" class="btn">Ask</button></p>
+  <p id="chat-err" class="err"></p>
+  <pre id="chat-out" class="chat-out"></pre>
+</section>
+
+<footer>
+  <small>Production: use <code>gunicorn</code> (see README). Do not expose without TLS + auth.</small>
+</footer>
+<script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+{% endblock %}

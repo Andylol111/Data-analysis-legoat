@@ -1,0 +1,71 @@
+support,itemsets
+0.014615384615384615,frozenset({'3 month gift subscription (The Epicure)'})
+0.021538461538461538,frozenset({'3 month gift subscription (The Gourmand)'})
+0.04,frozenset({'All Goat'})
+0.03307692307692308,frozenset({'All Spruced Up — sampler box'})
+0.05,frozenset({'Barely Blue — sampler box'})
+0.06076923076923077,frozenset({'Black & Blue'})
+0.04230769230769231,frozenset({'Black & Blue - 1/2-lb'})
+0.07384615384615385,frozenset({'Bloomy Breeze'})
+0.06153846153846154,frozenset({'Cabra LaMancha'})
+0.05076923076923077,frozenset({'Cabra LaMancha - 1/2-lb'})
+0.01769230769230769,"frozenset({""Carpenter's Wheel""})"
+0.031538461538461536,"frozenset({""Carpenter's Wheel - 1/2-lb wedge""})"
+0.03538461538461538,frozenset({'Cave Dweller'})
+0.031538461538461536,frozenset({'Cave Dweller - 1/2-lb wedge'})
+0.013846153846153847,"frozenset({""Cow's Milk Sampler""})"
+0.05076923076923077,frozenset({'FireFly Cheese Club - 12 months - 12 months'})
+0.06,frozenset({'FireFly Cheese Club - 3 months - 3 months'})
+0.03461538461538462,frozenset({'FireFly Cheese Club - 6 months - 6 months'})
+0.06153846153846154,frozenset({'FireFly Farms Christmas Sampler'})
+0.06230769230769231,frozenset({'Fresh Goat Cheese'})
+0.019230769230769232,frozenset({'Honey honey — sampler box'})
+0.15153846153846154,frozenset({'Merry Goat Round'})
+0.06692307692307692,frozenset({'Merry Goat Round Spruce Reserve'})
+0.023076923076923078,frozenset({'Moo & Blue'})
+0.02,frozenset({'Moo & Blue - 1/2-lb'})
+0.027692307692307693,"frozenset({""Mother's Day Flower Themed Gift Box""})"
+0.012307692307692308,"frozenset({""Mother's Day Gift Box""})"
+0.08923076923076922,frozenset({'Mountain Top'})
+0.05153846153846154,frozenset({'Subscription box — The Epicure - Monthly'})
+0.10615384615384615,frozenset({'Subscription box — The Gourmand - Monthly'})
+0.04461538461538461,frozenset({'Subscription box — The Minimalist - Monthly'})
+0.021538461538461538,frozenset({'Thanksgiving Sampler'})
+0.018461538461538463,frozenset({'The Heritage Sampler'})
+0.031538461538461536,frozenset({'White Rock'})
+0.014615384615384615,"frozenset({'Bloomy Breeze', 'Black & Blue'})"
+0.023846153846153847,"frozenset({'Black & Blue', 'Cabra LaMancha'})"
+0.014615384615384615,"frozenset({'Black & Blue', 'Cave Dweller'})"
+0.02076923076923077,"frozenset({'Black & Blue', 'Merry Goat Round'})"
+0.02076923076923077,"frozenset({'Black & Blue', 'Mountain Top'})"
+0.015384615384615385,"frozenset({'Cabra LaMancha - 1/2-lb', 'Black & Blue - 1/2-lb'})"
+0.014615384615384615,"frozenset({'Cave Dweller - 1/2-lb wedge', 'Black & Blue - 1/2-lb'})"
+0.01769230769230769,"frozenset({'Black & Blue - 1/2-lb', 'Merry Goat Round'})"
+0.014615384615384615,"frozenset({'Black & Blue - 1/2-lb', 'Mountain Top'})"
+0.014615384615384615,"frozenset({'Bloomy Breeze', 'Cabra LaMancha'})"
+0.015384615384615385,"frozenset({'Bloomy Breeze', 'Cave Dweller'})"
+0.02076923076923077,"frozenset({'Fresh Goat Cheese', 'Bloomy Breeze'})"
+0.04230769230769231,"frozenset({'Bloomy Breeze', 'Merry Goat Round'})"
+0.02923076923076923,"frozenset({'Bloomy Breeze', 'Mountain Top'})"
+0.016153846153846154,"frozenset({'Bloomy Breeze', 'White Rock'})"
+0.014615384615384615,"frozenset({'Cabra LaMancha', 'Cave Dweller'})"
+0.026153846153846153,"frozenset({'Cabra LaMancha', 'Merry Goat Round'})"
+0.013846153846153847,"frozenset({'Mountain Top', 'Cabra LaMancha'})"
+0.012307692307692308,"frozenset({'White Rock', 'Cabra LaMancha'})"
+0.014615384615384615,"frozenset({""Carpenter's Wheel - 1/2-lb wedge"", 'Cabra LaMancha - 1/2-lb'})"
+0.013076923076923076,"frozenset({'Cave Dweller - 1/2-lb wedge', 'Cabra LaMancha - 1/2-lb'})"
+0.026923076923076925,"frozenset({'Cabra LaMancha - 1/2-lb', 'Merry Goat Round'})"
+0.015384615384615385,"frozenset({'Cabra LaMancha - 1/2-lb', 'Merry Goat Round Spruce Reserve'})"
+0.014615384615384615,"frozenset({'Cabra LaMancha - 1/2-lb', 'Mountain Top'})"
+0.013076923076923076,"frozenset({""Carpenter's Wheel - 1/2-lb wedge"", 'Merry Goat Round'})"
+0.016923076923076923,"frozenset({'Merry Goat Round', 'Cave Dweller'})"
+0.013076923076923076,"frozenset({'Mountain Top', 'Cave Dweller'})"
+0.015384615384615385,"frozenset({'Cave Dweller - 1/2-lb wedge', 'Merry Goat Round'})"
+0.03,"frozenset({'Fresh Goat Cheese', 'Merry Goat Round'})"
+0.019230769230769232,"frozenset({'Fresh Goat Cheese', 'Mountain Top'})"
+0.02846153846153846,"frozenset({'Merry Goat Round Spruce Reserve', 'Merry Goat Round'})"
+0.04461538461538461,"frozenset({'Mountain Top', 'Merry Goat Round'})"
+0.01769230769230769,"frozenset({'White Rock', 'Merry Goat Round'})"
+0.024615384615384615,"frozenset({'Merry Goat Round Spruce Reserve', 'Mountain Top'})"
+0.013846153846153847,"frozenset({'White Rock', 'Mountain Top'})"
+0.02,"frozenset({'Bloomy Breeze', 'Mountain Top', 'Merry Goat Round'})"

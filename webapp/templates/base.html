@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}FireFly Farms analytics{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+  <nav class="topnav">
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('dashboard') }}">Custom charts</a>
+    <a href="{{ url_for('export_all_figures_zip') }}" class="nav-btn">Export figures (ZIP)</a>
+    <a href="{{ url_for('export_all_csvs_zip') }}" class="nav-btn">Export all CSVs (ZIP)</a>
+    <a href="{{ url_for('guide') }}">Data dictionary</a>
+    <a href="{{ url_for('methods') }}">11 methods status</a>
+  </nav>
+  {% block body %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,1905 @@
+{
+  "root": "/Users/andreh./Documents/GitHub/Data-analysis-legoat/outputs",
+  "datasets": [
+    {
+      "rel": "advanced/bootstrap_mean_net_order_95ci.csv",
+      "rows": 1,
+      "columns": [
+        {
+          "name": "metric",
+          "dtype": "object"
+        },
+        {
+          "name": "point",
+          "dtype": "object"
+        },
+        {
+          "name": "ci_low",
+          "dtype": "object"
+        },
+        {
+          "name": "ci_high",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/clv_customer_estimates.csv",
+      "rows": 537,
+      "columns": [
+        {
+          "name": "customer_id",
+          "dtype": "object"
+        },
+        {
+          "name": "frequency",
+          "dtype": "object"
+        },
+        {
+          "name": "recency",
+          "dtype": "object"
+        },
+        {
+          "name": "T",
+          "dtype": "object"
+        },
+        {
+          "name": "monetary_value",
+          "dtype": "object"
+        },
+        {
+          "name": "p_alive",
+          "dtype": "object"
+        },
+        {
+          "name": "exp_purchases_90d",
+          "dtype": "object"
+        },
+        {
+          "name": "exp_avg_profit",
+          "dtype": "object"
+        },
+        {
+          "name": "clv_12m",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/clv_rfm_summary.csv",
+      "rows": 537,
+      "columns": [
+        {
+          "name": "customer_id",
+          "dtype": "object"
+        },
+        {
+          "name": "frequency",
+          "dtype": "object"
+        },
+        {
+          "name": "recency",
+          "dtype": "object"
+        },
+        {
+          "name": "T",
+          "dtype": "object"
+        },
+        {
+          "name": "monetary_value",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/corr_product_numeric.csv",
+      "rows": 40,
+      "columns": [
+        {
+          "name": "Unnamed: 0",
+          "dtype": "object"
+        },
+        {
+          "name": "Product ID",
+          "dtype": "object"
+        },
+        {
+          "name": "Current Price",
+          "dtype": "object"
+        },
+        {
+          "name": "Regular Price",
+          "dtype": "object"
+        },
+        {
+          "name": "Sale Price",
+          "dtype": "object"
+        },
+        {
+          "name": "Downloadable",
+          "dtype": "object"
+        },
+        {
+          "name": "Virtual",
+          "dtype": "object"
+        },
+        {
+          "name": "Cogs",
+          "dtype": "object"
+        },
+        {
+          "name": "Managing Stock",
+          "dtype": "object"
+        },
+        {
+          "name": "In Stock",
+          "dtype": "object"
+        },
+        {
+          "name": "Stock Quantity",
+          "dtype": "object"
+        },
+        {
+          "name": "Backorders Allowed",
+          "dtype": "object"
+        },
+        {
+          "name": "Weight",
+          "dtype": "object"
+        },
+        {
+          "name": "Barcode",
+          "dtype": "object"
+        },
+        {
+          "name": "Brand",
+          "dtype": "object"
+        },
+        {
+          "name": "Tax Class",
+          "dtype": "object"
+        },
+        {
+          "name": "Shipping Class",
+          "dtype": "object"
+        },
+        {
+          "name": "Reviews Allowed",
+          "dtype": "object"
+        },
+        {
+          "name": "Average Rating",
+          "dtype": "object"
+        },
+        {
+          "name": "Rating Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Low Stock Amount",
+          "dtype": "object"
+        },
+        {
+          "name": "Sold Individually",
+          "dtype": "object"
+        },
+        {
+          "name": "Tags",
+          "dtype": "object"
+        },
+        {
+          "name": "Gross Items Sold",
+          "dtype": "object"
+        },
+        {
+          "name": "Items Sold",
+          "dtype": "object"
+        },
+        {
+          "name": "Gross Sales",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Tax",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Discounted",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Refunds",
+          "dtype": "object"
+        },
+        {
+          "name": "Items Refunded",
+          "dtype": "object"
+        },
+        {
+          "name": "Refund Rate",
+          "dtype": "object"
+        },
+        {
+          "name": "Net Sales",
+          "dtype": "object"
+        },
+        {
+          "name": "Net Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Gross Items Sold Free",
+          "dtype": "object"
+        },
+        {
+          "name": "Daily Gross Items Sold",
+          "dtype": "object"
+        },
+        {
+          "name": "Days Of Stock Left",
+          "dtype": "object"
+        },
+        {
+          "name": "Sales Cost",
+          "dtype": "object"
+        },
+        {
+          "name": "Sales Profit",
+          "dtype": "object"
+        },
+        {
+          "name": "Sales Margin",
+          "dtype": "object"
+        },
+        {
+          "name": "Inventory Cost",
+          "dtype": "object"
+        },
+        {
+          "name": "Inventory Sale Value",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/gmm_customer_segments_rfm.csv",
+      "rows": 537,
+      "columns": [
+        {
+          "name": "customer_id",
+          "dtype": "object"
+        },
+        {
+          "name": "frequency",
+          "dtype": "object"
+        },
+        {
+          "name": "recency_days",
+          "dtype": "object"
+        },
+        {
+          "name": "T_days",
+          "dtype": "object"
+        },
+        {
+          "name": "monetary_mean",
+          "dtype": "object"
+        },
+        {
+          "name": "segment",
+          "dtype": "object"
+        },
+        {
+          "name": "segment_prob_max",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/hierarchy_linkage_matrix.csv",
+      "rows": 536,
+      "columns": [
+        {
+          "name": "c1",
+          "dtype": "object"
+        },
+        {
+          "name": "c2",
+          "dtype": "object"
+        },
+        {
+          "name": "dist",
+          "dtype": "object"
+        },
+        {
+          "name": "count",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/hierarchy_postcode_linkage.csv",
+      "rows": 388,
+      "columns": [
+        {
+          "name": "c1",
+          "dtype": "object"
+        },
+        {
+          "name": "c2",
+          "dtype": "object"
+        },
+        {
+          "name": "dist",
+          "dtype": "object"
+        },
+        {
+          "name": "count",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/mannwhitney_top2_states_net.csv",
+      "rows": 1,
+      "columns": [
+        {
+          "name": "state_a",
+          "dtype": "object"
+        },
+        {
+          "name": "state_b",
+          "dtype": "object"
+        },
+        {
+          "name": "mannwhitney_statistic",
+          "dtype": "object"
+        },
+        {
+          "name": "p_value_two_sided",
+          "dtype": "object"
+        },
+        {
+          "name": "n_a",
+          "dtype": "object"
+        },
+        {
+          "name": "n_b",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/orders_anomaly_isolation_forest.csv",
+      "rows": 1191,
+      "columns": [
+        {
+          "name": "Order ID",
+          "dtype": "object"
+        },
+        {
+          "name": "Order Created At",
+          "dtype": "object"
+        },
+        {
+          "name": "Net",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Shipping",
+          "dtype": "object"
+        },
+        {
+          "name": "_anomaly",
+          "dtype": "object"
+        },
+        {
+          "name": "_score",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/pca_customer_scores.csv",
+      "rows": 537,
+      "columns": [
+        {
+          "name": "customer_id",
+          "dtype": "object"
+        },
+        {
+          "name": "PC1",
+          "dtype": "object"
+        },
+        {
+          "name": "PC2",
+          "dtype": "object"
+        },
+        {
+          "name": "PC3",
+          "dtype": "object"
+        },
+        {
+          "name": "PC4",
+          "dtype": "object"
+        },
+        {
+          "name": "PC5",
+          "dtype": "object"
+        },
+        {
+          "name": "PC6",
+          "dtype": "object"
+        },
+        {
+          "name": "PC7",
+          "dtype": "object"
+        },
+        {
+          "name": "PC8",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/pca_customer_variance.csv",
+      "rows": 8,
+      "columns": [
+        {
+          "name": "component",
+          "dtype": "object"
+        },
+        {
+          "name": "variance_ratio",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/regression_elastic_net_coefs.csv",
+      "rows": 4,
+      "columns": [
+        {
+          "name": "feature",
+          "dtype": "object"
+        },
+        {
+          "name": "coef",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/ts_changepoint_indices.csv",
+      "rows": 1,
+      "columns": [
+        {
+          "name": "changepoint_index_end",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/ts_linear_trend_forecast_3m.csv",
+      "rows": 3,
+      "columns": [
+        {
+          "name": "step_ahead",
+          "dtype": "object"
+        },
+        {
+          "name": "forecast_trend",
+          "dtype": "object"
+        },
+        {
+          "name": "approx_ci_low",
+          "dtype": "object"
+        },
+        {
+          "name": "approx_ci_high",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "advanced/ts_monthly_stl_components.csv",
+      "rows": 40,
+      "columns": [
+        {
+          "name": "month",
+          "dtype": "object"
+        },
+        {
+          "name": "trend",
+          "dtype": "object"
+        },
+        {
+          "name": "seasonal",
+          "dtype": "object"
+        },
+        {
+          "name": "resid",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "annual_orders_subscriptions.csv",
+      "rows": 5,
+      "columns": [
+        {
+          "name": "Date",
+          "dtype": "object"
+        },
+        {
+          "name": "Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Gross",
+          "dtype": "object"
+        },
+        {
+          "name": "Net",
+          "dtype": "object"
+        },
+        {
+          "name": "Refunds",
+          "dtype": "object"
+        },
+        {
+          "name": "Discounts",
+          "dtype": "object"
+        },
+        {
+          "name": "Taxes",
+          "dtype": "object"
+        },
+        {
+          "name": "Shipping",
+          "dtype": "object"
+        },
+        {
+          "name": "Fees",
+          "dtype": "object"
+        },
+        {
+          "name": "Renewal Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Renewal Total",
+          "dtype": "object"
+        },
+        {
+          "name": "Switch Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Switch Total",
+          "dtype": "object"
+        },
+        {
+          "name": "Resubscribe Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Resubscribe Total",
+          "dtype": "object"
+        },
+        {
+          "name": "Signup Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Signup Total",
+          "dtype": "object"
+        },
+        {
+          "name": "Cancelled Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Cancelled Total",
+          "dtype": "object"
+        },
+        {
+          "name": "Change Count",
+          "dtype": "object"
+        },
+        {
+          "name": "Change Total",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "apriori_association_rules.csv",
+      "rows": 29,
+      "columns": [
+        {
+          "name": "antecedents",
+          "dtype": "object"
+        },
+        {
+          "name": "consequents",
+          "dtype": "object"
+        },
+        {
+          "name": "antecedent support",
+          "dtype": "object"
+        },
+        {
+          "name": "consequent support",
+          "dtype": "object"
+        },
+        {
+          "name": "support",
+          "dtype": "object"
+        },
+        {
+          "name": "confidence",
+          "dtype": "object"
+        },
+        {
+          "name": "lift",
+          "dtype": "object"
+        },
+        {
+          "name": "representativity",
+          "dtype": "object"
+        },
+        {
+          "name": "leverage",
+          "dtype": "object"
+        },
+        {
+          "name": "conviction",
+          "dtype": "object"
+        },
+        {
+          "name": "zhangs_metric",
+          "dtype": "object"
+        },
+        {
+          "name": "jaccard",
+          "dtype": "object"
+        },
+        {
+          "name": "certainty",
+          "dtype": "object"
+        },
+        {
+          "name": "kulczynski",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "apriori_frequent_itemsets.csv",
+      "rows": 70,
+      "columns": [
+        {
+          "name": "support",
+          "dtype": "object"
+        },
+        {
+          "name": "itemsets",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "association_rules_all_pairs.csv",
+      "rows": 361,
+      "columns": [
+        {
+          "name": "product_a_id",
+          "dtype": "object"
+        },
+        {
+          "name": "product_b_id",
+          "dtype": "object"
+        },
+        {
+          "name": "co_purchase_count",
+          "dtype": "object"
+        },
+        {
+          "name": "support",
+          "dtype": "object"
+        },
+        {
+          "name": "confidence_a_to_b",
+          "dtype": "object"
+        },
+        {
+          "name": "confidence_b_to_a",
+          "dtype": "object"
+        },
+        {
+          "name": "lift",
+          "dtype": "object"
+        },
+        {
+          "name": "orders_a",
+          "dtype": "object"
+        },
+        {
+          "name": "orders_b",
+          "dtype": "object"
+        },
+        {
+          "name": "product_a_name",
+          "dtype": "object"
+        },
+        {
+          "name": "product_b_name",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "association_rules_filtered.csv",
+      "rows": 62,
+      "columns": [
+        {
+          "name": "product_a_id",
+          "dtype": "object"
+        },
+        {
+          "name": "product_b_id",
+          "dtype": "object"
+        },
+        {
+          "name": "co_purchase_count",
+          "dtype": "object"
+        },
+        {
+          "name": "support",
+          "dtype": "object"
+        },
+        {
+          "name": "confidence_a_to_b",
+          "dtype": "object"
+        },
+        {
+          "name": "confidence_b_to_a",
+          "dtype": "object"
+        },
+        {
+          "name": "lift",
+          "dtype": "object"
+        },
+        {
+          "name": "orders_a",
+          "dtype": "object"
+        },
+        {
+          "name": "orders_b",
+          "dtype": "object"
+        },
+        {
+          "name": "product_a_name",
+          "dtype": "object"
+        },
+        {
+          "name": "product_b_name",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "co_purchase_centrality.csv",
+      "rows": 20,
+      "columns": [
+        {
+          "name": "product_id",
+          "dtype": "object"
+        },
+        {
+          "name": "title",
+          "dtype": "object"
+        },
+        {
+          "name": "weighted_degree",
+          "dtype": "object"
+        },
+        {
+          "name": "betweenness",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "co_purchase_top_edges.csv",
+      "rows": 50,
+      "columns": [
+        {
+          "name": "product_a_id",
+          "dtype": "object"
+        },
+        {
+          "name": "product_b_id",
+          "dtype": "object"
+        },
+        {
+          "name": "weight",
+          "dtype": "object"
+        },
+        {
+          "name": "product_a",
+          "dtype": "object"
+        },
+        {
+          "name": "product_b",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "first_product_cohorts_full.csv",
+      "rows": 54,
+      "columns": [
+        {
+          "name": "First Ordered Product",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers Rate",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "first_product_cohorts_top40.csv",
+      "rows": 40,
+      "columns": [
+        {
+          "name": "First Ordered Product",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers Rate",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_daily_active_users_series.csv",
+      "rows": 871,
+      "columns": [
+        {
+          "name": "nth_day",
+          "dtype": "object"
+        },
+        {
+          "name": "value",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_000_Nth_day.csv",
+      "rows": 871,
+      "columns": [
+        {
+          "name": "Nth day",
+          "dtype": "object"
+        },
+        {
+          "name": "Active users",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_001_Nth_day.csv",
+      "rows": 871,
+      "columns": [
+        {
+          "name": "Nth day",
+          "dtype": "object"
+        },
+        {
+          "name": "New users",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_002_Nth_day.csv",
+      "rows": 871,
+      "columns": [
+        {
+          "name": "Nth day",
+          "dtype": "object"
+        },
+        {
+          "name": "Average engagement time per active user",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_003_Nth_day.csv",
+      "rows": 871,
+      "columns": [
+        {
+          "name": "Nth day",
+          "dtype": "object"
+        },
+        {
+          "name": "Total revenue",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_004_First_user_primary_channel_group__Defaul.csv",
+      "rows": 10,
+      "columns": [
+        {
+          "name": "First user primary channel group (Default Channel Group)",
+          "dtype": "object"
+        },
+        {
+          "name": "New users",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_005_Session_primary_channel_group__Default_C.csv",
+      "rows": 10,
+      "columns": [
+        {
+          "name": "Session primary channel group (Default Channel Group)",
+          "dtype": "object"
+        },
+        {
+          "name": "Sessions",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_006_Country_ID.csv",
+      "rows": 123,
+      "columns": [
+        {
+          "name": "Country ID",
+          "dtype": "object"
+        },
+        {
+          "name": "Active users",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_007_Country.csv",
+      "rows": 7,
+      "columns": [
+        {
+          "name": "Country",
+          "dtype": "object"
+        },
+        {
+          "name": "Active users",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_008_Nth_day.csv",
+      "rows": 871,
+      "columns": [
+        {
+          "name": "Nth day",
+          "dtype": "object"
+        },
+        {
+          "name": "30 days",
+          "dtype": "object"
+        },
+        {
+          "name": "7 days",
+          "dtype": "object"
+        },
+        {
+          "name": "1 day",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_009_Date.csv",
+      "rows": 6,
+      "columns": [
+        {
+          "name": "Date",
+          "dtype": "object"
+        },
+        {
+          "name": "Week 0",
+          "dtype": "object"
+        },
+        {
+          "name": "Week 1",
+          "dtype": "object"
+        },
+        {
+          "name": "Week 2",
+          "dtype": "object"
+        },
+        {
+          "name": "Week 3",
+          "dtype": "object"
+        },
+        {
+          "name": "Week 4",
+          "dtype": "object"
+        },
+        {
+          "name": "Week 5",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_010_Page_title_and_screen_class.csv",
+      "rows": 787,
+      "columns": [
+        {
+          "name": "Page title and screen class",
+          "dtype": "object"
+        },
+        {
+          "name": "Views",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_011_Event_name.csv",
+      "rows": 21,
+      "columns": [
+        {
+          "name": "Event name",
+          "dtype": "object"
+        },
+        {
+          "name": "Event count",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_012_Event_name.csv",
+      "rows": 1,
+      "columns": [
+        {
+          "name": "Event name",
+          "dtype": "object"
+        },
+        {
+          "name": "Key events",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_013_First_user_primary_channel_group__Defaul.csv",
+      "rows": 7,
+      "columns": [
+        {
+          "name": "First user primary channel group (Default Channel Group)",
+          "dtype": "object"
+        },
+        {
+          "name": "Average 120d value",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_014_Item_name.csv",
+      "rows": 48,
+      "columns": [
+        {
+          "name": "Item name",
+          "dtype": "object"
+        },
+        {
+          "name": "Items purchased",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "ga_tables/section_015_Platform.csv",
+      "rows": 1,
+      "columns": [
+        {
+          "name": "Platform",
+          "dtype": "object"
+        },
+        {
+          "name": "Key events",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "lda_customer_topic_weights.csv",
+      "rows": 243,
+      "columns": [
+        {
+          "name": "customer_id",
+          "dtype": "object"
+        },
+        {
+          "name": "topic_1",
+          "dtype": "object"
+        },
+        {
+          "name": "topic_2",
+          "dtype": "object"
+        },
+        {
+          "name": "topic_3",
+          "dtype": "object"
+        },
+        {
+          "name": "topic_4",
+          "dtype": "object"
+        },
+        {
+          "name": "topic_5",
+          "dtype": "object"
+        },
+        {
+          "name": "topic_6",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "lda_topic_product_loadings.csv",
+      "rows": 6,
+      "columns": [
+        {
+          "name": "Unnamed: 0",
+          "dtype": "object"
+        },
+        {
+          "name": "3 month gift subscription (The Epicure)",
+          "dtype": "object"
+        },
+        {
+          "name": "3 month gift subscription (The Gourmand)",
+          "dtype": "object"
+        },
+        {
+          "name": "All Goat",
+          "dtype": "object"
+        },
+        {
+          "name": "All Spruced Up \u2014 sampler box",
+          "dtype": "object"
+        },
+        {
+          "name": "Barely Blue \u2014 sampler box",
+          "dtype": "object"
+        },
+        {
+          "name": "Black & Blue",
+          "dtype": "object"
+        },
+        {
+          "name": "Black & Blue - 1/2-lb",
+          "dtype": "object"
+        },
+        {
+          "name": "Bloomy Breeze",
+          "dtype": "object"
+        },
+        {
+          "name": "Cabra LaMancha",
+          "dtype": "object"
+        },
+        {
+          "name": "Cabra LaMancha - 1/2-lb",
+          "dtype": "object"
+        },
+        {
+          "name": "Cabrita",
+          "dtype": "object"
+        },
+        {
+          "name": "Carpenter's Wheel",
+          "dtype": "object"
+        },
+        {
+          "name": "Carpenter's Wheel - 1/2-lb wedge",
+          "dtype": "object"
+        },
+        {
+          "name": "Cave Dweller",
+          "dtype": "object"
+        },
+        {
+          "name": "Cave Dweller - 1/2-lb wedge",
+          "dtype": "object"
+        },
+        {
+          "name": "FireFly Cheese Club - 12 months - 12 months",
+          "dtype": "object"
+        },
+        {
+          "name": "FireFly Cheese Club - 3 months - 3 months",
+          "dtype": "object"
+        },
+        {
+          "name": "FireFly Cheese Club - 6 months - 6 months",
+          "dtype": "object"
+        },
+        {
+          "name": "FireFly Farms Christmas Sampler",
+          "dtype": "object"
+        },
+        {
+          "name": "Flouwer Co. Artisanal Crackers",
+          "dtype": "object"
+        },
+        {
+          "name": "Fresh Goat Cheese",
+          "dtype": "object"
+        },
+        {
+          "name": "Honey honey \u2014 sampler box",
+          "dtype": "object"
+        },
+        {
+          "name": "Merry Goat Round",
+          "dtype": "object"
+        },
+        {
+          "name": "Merry Goat Round Spruce Reserve",
+          "dtype": "object"
+        },
+        {
+          "name": "Moo & Blue",
+          "dtype": "object"
+        },
+        {
+          "name": "Moo & Blue - 1/2-lb",
+          "dtype": "object"
+        },
+        {
+          "name": "Mountain Top",
+          "dtype": "object"
+        },
+        {
+          "name": "Red Leicester",
+          "dtype": "object"
+        },
+        {
+          "name": "Subscription box \u2014 The Epicure - Monthly",
+          "dtype": "object"
+        },
+        {
+          "name": "Subscription box \u2014 The Gourmand - Monthly",
+          "dtype": "object"
+        },
+        {
+          "name": "Subscription box \u2014 The Minimalist - Monthly",
+          "dtype": "object"
+        },
+        {
+          "name": "Thanksgiving Sampler",
+          "dtype": "object"
+        },
+        {
+          "name": "The Heritage Sampler",
+          "dtype": "object"
+        },
+        {
+          "name": "Wensleydale with Cranberry - 1/2-lb wedge",
+          "dtype": "object"
+        },
+        {
+          "name": "White Rock",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "nmf_product_loadings.csv",
+      "rows": 56,
+      "columns": [
+        {
+          "name": "product_id",
+          "dtype": "object"
+        },
+        {
+          "name": "title",
+          "dtype": "object"
+        },
+        {
+          "name": "factor_1",
+          "dtype": "object"
+        },
+        {
+          "name": "factor_2",
+          "dtype": "object"
+        },
+        {
+          "name": "factor_3",
+          "dtype": "object"
+        },
+        {
+          "name": "factor_4",
+          "dtype": "object"
+        },
+        {
+          "name": "factor_5",
+          "dtype": "object"
+        },
+        {
+          "name": "factor_6",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "order_line_items_long.csv",
+      "rows": 5837,
+      "columns": [
+        {
+          "name": "order_id",
+          "dtype": "object"
+        },
+        {
+          "name": "order_date",
+          "dtype": "object"
+        },
+        {
+          "name": "customer_id",
+          "dtype": "object"
+        },
+        {
+          "name": "billing_postcode",
+          "dtype": "object"
+        },
+        {
+          "name": "billing_state",
+          "dtype": "object"
+        },
+        {
+          "name": "net",
+          "dtype": "object"
+        },
+        {
+          "name": "status",
+          "dtype": "object"
+        },
+        {
+          "name": "product_name",
+          "dtype": "object"
+        },
+        {
+          "name": "quantity",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "pairs_aggregated_by_product_ids.csv",
+      "rows": 367,
+      "columns": [
+        {
+          "name": "Product A Id",
+          "dtype": "object"
+        },
+        {
+          "name": "Product B Id",
+          "dtype": "object"
+        },
+        {
+          "name": "co_count",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "postcode_cohorts_full.csv",
+      "rows": 389,
+      "columns": [
+        {
+          "name": "postcode",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers Rate",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "postcode_top30_spend.csv",
+      "rows": 30,
+      "columns": [
+        {
+          "name": "postcode",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Spent",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Orders",
+          "dtype": "object"
+        },
+        {
+          "name": "Total Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Avg Items",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers",
+          "dtype": "object"
+        },
+        {
+          "name": "Returning Customers Rate",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "product_cooccurrence_matrix.csv",
+      "rows": 56,
+      "columns": [
+        {
+          "name": "Unnamed: 0",
+          "dtype": "object"
+        },
+        {
+          "name": "930",
+          "dtype": "object"
+        },
+        {
+          "name": "934",
+          "dtype": "object"
+        },
+        {
+          "name": "937",
+          "dtype": "object"
+        },
+        {
+          "name": "940",
+          "dtype": "object"
+        },
+        {
+          "name": "943",
+          "dtype": "object"
+        },
+        {
+          "name": "947",
+          "dtype": "object"
+        },
+        {
+          "name": "950",
+          "dtype": "object"
+        },
+        {
+          "name": "953",
+          "dtype": "object"
+        },
+        {
+          "name": "1903",
+          "dtype": "object"
+        },
+        {
+          "name": "2078",
+          "dtype": "object"
+        },
+        {
+          "name": "2772",
+          "dtype": "object"
+        },
+        {
+          "name": "2800",
+          "dtype": "object"
+        },
+        {
+          "name": "2802",
+          "dtype": "object"
+        },
+        {
+          "name": "2884",
+          "dtype": "object"
+        },
+        {
+          "name": "2983",
+          "dtype": "object"
+        },
+        {
+          "name": "3351",
+          "dtype": "object"
+        },
+        {
+          "name": "3470",
+          "dtype": "object"
+        },
+        {
+          "name": "3868",
+          "dtype": "object"
+        },
+        {
+          "name": "3871",
+          "dtype": "object"
+        },
+        {
+          "name": "3979",
+          "dtype": "object"
+        },
+        {
+          "name": "3985",
+          "dtype": "object"
+        },
+        {
+          "name": "3990",
+          "dtype": "object"
+        },
+        {
+          "name": "3992",
+          "dtype": "object"
+        },
+        {
+          "name": "4116",
+          "dtype": "object"
+        },
+        {
+          "name": "4321",
+          "dtype": "object"
+        },
+        {
+          "name": "4475",
+          "dtype": "object"
+        },
+        {
+          "name": "4555",
+          "dtype": "object"
+        },
+        {
+          "name": "4602",
+          "dtype": "object"
+        },
+        {
+          "name": "4634",
+          "dtype": "object"
+        },
+        {
+          "name": "4647",
+          "dtype": "object"
+        },
+        {
+          "name": "4677",
+          "dtype": "object"
+        },
+        {
+          "name": "5343",
+          "dtype": "object"
+        },
+        {
+          "name": "5347",
+          "dtype": "object"
+        },
+        {
+          "name": "5350",
+          "dtype": "object"
+        },
+        {
+          "name": "5388",
+          "dtype": "object"
+        },
+        {
+          "name": "7272",
+          "dtype": "object"
+        },
+        {
+          "name": "8041",
+          "dtype": "object"
+        },
+        {
+          "name": "8383",
+          "dtype": "object"
+        },
+        {
+          "name": "8385",
+          "dtype": "object"
+        },
+        {
+          "name": "8862",
+          "dtype": "object"
+        },
+        {
+          "name": "9201",
+          "dtype": "object"
+        },
+        {
+          "name": "9518",
+          "dtype": "object"
+        },
+        {
+          "name": "9520",
+          "dtype": "object"
+        },
+        {
+          "name": "9523",
+          "dtype": "object"
+        },
+        {
+          "name": "11909",
+          "dtype": "object"
+        },
+        {
+          "name": "12544",
+          "dtype": "object"
+        },
+        {
+          "name": "12547",
+          "dtype": "object"
+        },
+        {
+          "name": "12550",
+          "dtype": "object"
+        },
+        {
+          "name": "12554",
+          "dtype": "object"
+        },
+        {
+          "name": "12644",
+          "dtype": "object"
+        },
+        {
+          "name": "12713",
+          "dtype": "object"
+        },
+        {
+          "name": "13261",
+          "dtype": "object"
+        },
+        {
+          "name": "13474",
+          "dtype": "object"
+        },
+        {
+          "name": "13476",
+          "dtype": "object"
+        },
+        {
+          "name": "13478",
+          "dtype": "object"
+        },
+        {
+          "name": "13506",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "products_aggregated_by_id.csv",
+      "rows": 58,
+      "columns": [
+        {
+          "name": "product_id",
+          "dtype": "object"
+        },
+        {
+          "name": "net_orders",
+          "dtype": "object"
+        },
+        {
+          "name": "title",
+          "dtype": "object"
+        },
+        {
+          "name": "category",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "revenue_by_billing_state.csv",
+      "rows": 37,
+      "columns": [
+        {
+          "name": "Billing Address State",
+          "dtype": "object"
+        },
+        {
+          "name": "net_revenue",
+          "dtype": "object"
+        },
+        {
+          "name": "n_orders",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    },
+    {
+      "rel": "revenue_by_month.csv",
+      "rows": 40,
+      "columns": [
+        {
+          "name": "month",
+          "dtype": "object"
+        },
+        {
+          "name": "net_revenue",
+          "dtype": "object"
+        },
+        {
+          "name": "n_orders",
+          "dtype": "object"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

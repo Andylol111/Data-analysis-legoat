@@ -1,0 +1,51 @@
+product_a_id,product_b_id,weight,product_a,product_b
+930,943,70.0,Cabra LaMancha,Merry Goat Round
+943,950,60.0,Merry Goat Round,Mountain Top
+943,940,57.0,Merry Goat Round,Bloomy Breeze
+930,937,51.0,Cabra LaMancha,Black & Blue
+943,937,50.0,Merry Goat Round,Black & Blue
+950,937,46.0,Mountain Top,Black & Blue
+943,947,42.0,Merry Goat Round,Cave Dweller
+943,953,39.0,Merry Goat Round,Fresh Goat Cheese
+950,940,39.0,Mountain Top,Bloomy Breeze
+930,950,38.0,Cabra LaMancha,Mountain Top
+943,1903,38.0,Merry Goat Round,Merry Goat Round Spruce Reserve
+947,937,38.0,Cave Dweller,Black & Blue
+930,947,36.0,Cabra LaMancha,Cave Dweller
+950,1903,33.0,Mountain Top,Merry Goat Round Spruce Reserve
+947,950,31.0,Cave Dweller,Mountain Top
+947,940,29.0,Cave Dweller,Bloomy Breeze
+930,940,28.0,Cabra LaMancha,Bloomy Breeze
+943,2078,28.0,Merry Goat Round,Carpenter's Wheel
+930,934,27.0,Cabra LaMancha,Moo & Blue
+930,2078,27.0,Cabra LaMancha,Carpenter's Wheel
+953,937,27.0,Fresh Goat Cheese,Black & Blue
+953,940,27.0,Fresh Goat Cheese,Bloomy Breeze
+937,940,27.0,Black & Blue,Bloomy Breeze
+930,1903,26.0,Cabra LaMancha,Merry Goat Round Spruce Reserve
+930,953,25.0,Cabra LaMancha,Fresh Goat Cheese
+934,937,25.0,Moo & Blue,Black & Blue
+950,953,25.0,Mountain Top,Fresh Goat Cheese
+930,4602,24.0,Cabra LaMancha,White Rock
+950,2078,24.0,Mountain Top,Carpenter's Wheel
+1903,937,24.0,Merry Goat Round Spruce Reserve,Black & Blue
+2078,937,24.0,Carpenter's Wheel,Black & Blue
+943,4602,23.0,Merry Goat Round,White Rock
+2078,940,23.0,Carpenter's Wheel,Bloomy Breeze
+934,943,22.0,Moo & Blue,Merry Goat Round
+947,2078,21.0,Cave Dweller,Carpenter's Wheel
+4602,940,21.0,White Rock,Bloomy Breeze
+934,950,20.0,Moo & Blue,Mountain Top
+947,953,19.0,Cave Dweller,Fresh Goat Cheese
+947,4602,19.0,Cave Dweller,White Rock
+950,4602,18.0,Mountain Top,White Rock
+934,940,16.0,Moo & Blue,Bloomy Breeze
+947,1903,16.0,Cave Dweller,Merry Goat Round Spruce Reserve
+953,1903,15.0,Fresh Goat Cheese,Merry Goat Round Spruce Reserve
+4602,937,15.0,White Rock,Black & Blue
+1903,2078,14.0,Merry Goat Round Spruce Reserve,Carpenter's Wheel
+953,4602,13.0,Fresh Goat Cheese,White Rock
+953,2078,13.0,Fresh Goat Cheese,Carpenter's Wheel
+1903,940,13.0,Merry Goat Round Spruce Reserve,Bloomy Breeze
+2078,4602,13.0,Carpenter's Wheel,White Rock
+934,947,12.0,Moo & Blue,Cave Dweller

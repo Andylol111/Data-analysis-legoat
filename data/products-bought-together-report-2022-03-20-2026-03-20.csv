@@ -1,0 +1,426 @@
+Product A,Product B,Times Bought Together,Product A Id,Product A Variation Id,Product B Id,Product B Variation Id
+Merry Goat Round,Mountain Top,60,943,0,950,0
+Bloomy Breeze,Merry Goat Round,57,940,0,943,0
+Bloomy Breeze,Mountain Top,39,940,0,950,0
+Fresh Goat Cheese,Merry Goat Round,39,953,0,943,0
+Merry Goat Round,Merry Goat Round Spruce Reserve,38,943,0,1903,0
+Cabra LaMancha,Merry Goat Round,35,930,0,943,0
+Cabra LaMancha,Merry Goat Round,35,930,3937,943,0
+Merry Goat Round Spruce Reserve,Mountain Top,33,1903,0,950,0
+Black & Blue,Cabra LaMancha,32,937,0,930,0
+Black & Blue,Merry Goat Round,28,937,0,943,0
+Black & Blue,Mountain Top,28,937,0,950,0
+Bloomy Breeze,Fresh Goat Cheese,27,940,0,953,0
+Fresh Goat Cheese,Mountain Top,25,953,0,950,0
+Cave Dweller,Merry Goat Round,23,947,0,943,0
+Merry Goat Round,White Rock,23,943,0,4602,0
+Black & Blue,Merry Goat Round,22,937,3934,943,0
+Bloomy Breeze,Cabra LaMancha,21,940,0,930,0
+Bloomy Breeze,Cave Dweller,21,940,0,947,0
+Bloomy Breeze,White Rock,21,940,0,4602,0
+Cabra LaMancha,Merry Goat Round Spruce Reserve,21,930,3937,1903,0
+Black & Blue,Bloomy Breeze,20,937,0,940,0
+Black & Blue,Cave Dweller,20,937,0,947,0
+Cabra LaMancha,Cave Dweller,20,930,0,947,0
+Black & Blue,Cabra LaMancha,19,937,3934,930,3937
+Cabra LaMancha,Mountain Top,19,930,0,950,0
+Cabra LaMancha,Mountain Top,19,930,3937,950,0
+Cave Dweller,Merry Goat Round,19,947,3927,943,0
+Black & Blue,Cave Dweller,18,937,3934,947,3927
+Black & Blue,Mountain Top,18,937,3934,950,0
+Cabra LaMancha,Carpenter's Wheel,18,930,3937,2078,3933
+Carpenter's Wheel,Merry Goat Round,18,2078,3933,943,0
+Cave Dweller,Mountain Top,18,947,0,950,0
+Mountain Top,White Rock,18,950,0,4602,0
+Cabra LaMancha,White Rock,17,930,0,4602,0
+Cabra LaMancha,Moo & Blue,16,930,0,934,0
+Cabra LaMancha,Cave Dweller,16,930,3937,947,3927
+Black & Blue,White Rock,15,937,0,4602,0
+Cabra LaMancha,Fresh Goat Cheese,15,930,0,953,0
+Fresh Goat Cheese,Merry Goat Round Spruce Reserve,15,953,0,1903,0
+Black & Blue,Fresh Goat Cheese,14,937,0,953,0
+Black & Blue,Moo & Blue,14,937,0,934,0
+Carpenter's Wheel,Mountain Top,14,2078,3933,950,0
+Cave Dweller,White Rock,14,947,0,4602,0
+Black & Blue,Carpenter's Wheel,13,937,3934,2078,3933
+Black & Blue,Fresh Goat Cheese,13,937,3934,953,0
+Bloomy Breeze,Carpenter's Wheel,13,940,0,2078,0
+Bloomy Breeze,Merry Goat Round Spruce Reserve,13,940,0,1903,0
+Cave Dweller,Mountain Top,13,947,3927,950,0
+Fresh Goat Cheese,White Rock,13,953,0,4602,0
+Black & Blue,Merry Goat Round Spruce Reserve,12,937,0,1903,0
+Black & Blue,Merry Goat Round Spruce Reserve,12,937,3934,1903,0
+Carpenter's Wheel,Cave Dweller,12,2078,3933,947,3927
+Merry Goat Round,Moo & Blue,12,943,0,934,0
+Black & Blue,Carpenter's Wheel,11,937,0,2078,0
+Black & Blue,Moo & Blue,11,937,3934,934,3935
+Cabra LaMancha,Moo & Blue,11,930,3937,934,3935
+Carpenter's Wheel,Merry Goat Round Spruce Reserve,11,2078,3933,1903,0
+Cave Dweller,Fresh Goat Cheese,11,947,0,953,0
+Moo & Blue,Mountain Top,11,934,0,950,0
+Bloomy Breeze,Carpenter's Wheel,10,940,0,2078,3933
+Bloomy Breeze,Moo & Blue,10,940,0,934,0
+Cabra LaMancha,Fresh Goat Cheese,10,930,3937,953,0
+Carpenter's Wheel,Merry Goat Round,10,2078,0,943,0
+Carpenter's Wheel,Mountain Top,10,2078,0,950,0
+Cave Dweller,Merry Goat Round Spruce Reserve,10,947,3927,1903,0
+Merry Goat Round,Moo & Blue,10,943,0,934,3935
+Cabra LaMancha,Carpenter's Wheel,9,930,0,2078,0
+Carpenter's Wheel,Cave Dweller,9,2078,0,947,0
+Carpenter's Wheel,White Rock,9,2078,0,4602,0
+Carpenter's Wheel,Moo & Blue,9,2078,3933,934,3935
+Moo & Blue,Mountain Top,9,934,3935,950,0
+All Spruced Up — sampler box,Barely Blue — sampler box,8,2772,0,2800,0
+Bloomy Breeze,Cave Dweller,8,940,0,947,3927
+Bloomy Breeze,Flouwer Co. Artisanal Crackers,8,940,0,5343,0
+Cave Dweller,Fresh Goat Cheese,8,947,3927,953,0
+Black & Blue,Bloomy Breeze,7,937,3934,940,0
+Bloomy Breeze,Cabra LaMancha,7,940,0,930,3937
+Cabra LaMancha,Wensleydale with Cranberry,7,930,0,4677,0
+Cabra LaMancha,White Rock,7,930,3937,4602,0
+Carpenter's Wheel,Fresh Goat Cheese,7,2078,3933,953,0
+Cave Dweller,Moo & Blue,7,947,3927,934,3935
+Black & Blue,Cabrita,6,937,0,8862,0
+Bloomy Breeze,Cabrita,6,940,0,8862,0
+Bloomy Breeze,Moo & Blue,6,940,0,934,3935
+Bloomy Breeze,Nat's Nuts Cinnamon Whiskey Pecans,6,940,0,5350,0
+Bloomy Breeze,Wensleydale with Cranberry,6,940,0,4677,0
+Cabrita,Mountain Top,6,8862,0,950,0
+Carpenter's Wheel,Fresh Goat Cheese,6,2078,0,953,0
+Cave Dweller,Merry Goat Round Spruce Reserve,6,947,0,1903,0
+Cradoc's Sea Salted Crackers,Merry Goat Round,6,4475,0,943,0
+Flouwer Co. Artisanal Crackers,Nat's Nuts Cinnamon Whiskey Pecans,6,5343,0,5350,0
+Merry Goat Round,Organic Sourdough Sea Salt Crackers,6,943,0,5347,0
+Merry Goat Round Spruce Reserve,White Rock,6,1903,0,4602,0
+Barely Blue — sampler box,FireFly Farms Christmas Sampler,5,2800,0,2983,0
+Bloomy Breeze,Organic Sourdough Sea Salt Crackers,5,940,0,5347,0
+Cabra LaMancha,Merry Goat Round Spruce Reserve,5,930,0,1903,0
+Cabra LaMancha,Organic Sourdough Sea Salt Crackers,5,930,0,5347,0
+Cabrita,Carpenter's Wheel,5,8862,0,2078,0
+Cabrita,Merry Goat Round,5,8862,0,943,0
+Cave Dweller,Moo & Blue,5,947,0,934,0
+Cave Dweller,Organic Sourdough Sea Salt Crackers,5,947,0,5347,0
+Cave Dweller,White Rock,5,947,3927,4602,0
+Flouwer Co. Artisanal Crackers,Merry Goat Round,5,5343,0,943,0
+Flouwer Co. Artisanal Crackers,Organic Sourdough Sea Salt Crackers,5,5343,0,5347,0
+Fresh Goat Cheese,Moo & Blue,5,953,0,934,3935
+Merry Goat Round,Nat's Nuts Cinnamon Whiskey Pecans,5,943,0,5350,0
+Nat's Nuts Cinnamon Whiskey Pecans,White Rock,5,5350,0,4602,0
+All Goat,Cow's Milk Sampler,4,3990,0,3992,0
+Barely Blue — sampler box,Honey honey — sampler box,4,2800,0,2802,0
+Black & Blue,Nat's Nuts Cinnamon Whiskey Pecans,4,937,0,5350,0
+Black & Blue,Red Leicester,4,937,0,11909,0
+Cabra LaMancha,Wensleydale with Cranberry,4,930,3937,4677,4678
+Cabrita,Flouwer Co. Artisanal Crackers,4,8862,0,5343,0
+Cabrita,White Rock,4,8862,0,4602,0
+Carpenter's Wheel,White Rock,4,2078,3933,4602,0
+FireFly Farms Christmas Sampler,Wensleydale with Cranberry,4,2983,0,4677,0
+Flouwer Co. Artisanal Crackers,Merry Goat Round Spruce Reserve,4,5343,0,1903,0
+Fresh Goat Cheese,Moo & Blue,4,953,0,934,0
+Fresh Goat Cheese,Red Leicester,4,953,0,11909,0
+Merry Goat Round,Wensleydale with Cranberry,4,943,0,4677,4678
+Merry Goat Round Spruce Reserve,Moo & Blue,4,1903,0,934,3935
+Mountain Top,Potter's Organic Winter Wheat Crackers,4,950,0,12554,0
+Mountain Top,Red Leicester,4,950,0,11909,0
+Mountain Top,Wensleydale with Cranberry,4,950,0,4677,4678
+All Spruced Up — sampler box,Big Picture Farm Chocolate Covered Goat Milk Caramels,3,2772,0,4634,0
+All Spruced Up — sampler box,Taste of Fall,3,2772,0,2884,0
+Barely Blue — sampler box,Fresh Goat Cheese,3,2800,0,953,0
+Barely Blue — sampler box,Taste of Fall,3,2800,0,2884,0
+Black & Blue,Flouwer Co. Artisanal Crackers,3,937,0,5343,0
+Black & Blue,Jumping Jack,3,937,0,7272,0
+Black & Blue,Legendary Blue,3,937,0,9201,0
+Black & Blue,Potter's Organic Winter Wheat Crackers,3,937,0,12554,0
+Bloomy Breeze,Potter's Organic Winter Wheat Crackers,3,940,0,12554,0
+Bloomy Breeze,Red Leicester,3,940,0,11909,0
+Cabra LaMancha,Cow's Milk Sampler,3,930,0,3992,0
+Cabra LaMancha,Red Leicester,3,930,0,11909,0
+Cabra LaMancha,Cradoc's Sea Salted Crackers,3,930,3937,4475,0
+Cabrita,Cave Dweller,3,8862,0,947,0
+Cabrita,Fresh Goat Cheese,3,8862,0,953,0
+Cabrita,Jumping Jack,3,8862,0,7272,0
+Cabrita,Legendary Blue,3,8862,0,9201,0
+Cabrita,Nat's Nuts Cinnamon Whiskey Pecans,3,8862,0,5350,0
+Carpenter's Wheel,Merry Goat Round Spruce Reserve,3,2078,0,1903,0
+Carpenter's Wheel,Wensleydale with Cranberry,3,2078,3933,4677,4678
+Cave Dweller,Jumping Jack,3,947,0,7272,0
+Cave Dweller,Nat's Nuts Cinnamon Whiskey Pecans,3,947,0,5350,0
+Flouwer Co. Artisanal Crackers,White Rock,3,5343,0,4602,0
+Fresh Goat Cheese,Taste of Fall,3,953,0,2884,0
+Jumping Jack,White Rock,3,7272,0,4602,0
+Jumping Jack,The Heritage Sampler,3,7272,0,3985,0
+Legendary Blue,Mountain Top,3,9201,0,950,0
+Merry Goat Round,Parra Jimenez Organic Manchego,3,943,0,12544,0
+Merry Goat Round,Wensleydale with Cranberry,3,943,0,4677,0
+Merry Goat Round Spruce Reserve,Moo & Blue,3,1903,0,934,0
+Moo & Blue,White Rock,3,934,0,4602,0
+Moo & Blue,Potter's Organic Winter Wheat Crackers,3,934,0,12554,0
+All Goat,Cabra LaMancha,2,3990,0,930,3937
+All Goat,Merry Goat Round,2,3990,0,943,0
+All Goat,Moo & Blue,2,3990,0,934,0
+All Goat,Winter Blues,2,3990,0,3979,0
+All Spruced Up — sampler box,Cow's Milk Sampler,2,2772,0,3992,0
+All Spruced Up — sampler box,Honey honey — sampler box,2,2772,0,2802,0
+Barely Blue — sampler box,Big Picture Farm Chocolate Covered Goat Milk Caramels,2,2800,0,4634,0
+Barely Blue — sampler box,Merry Goat Round,2,2800,0,943,0
+Barely Blue — sampler box,Mountain Top,2,2800,0,950,0
+Barely Blue — sampler box,The Heritage Sampler,2,2800,0,3985,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Merry Goat Round,2,4634,0,943,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Wensleydale with Cranberry,2,4634,0,4677,4678
+Black & Blue,Cow's Milk Sampler,2,937,0,3992,0
+Black & Blue,Taste of Fall,2,937,0,2884,0
+Black & Blue,The Heritage Sampler,2,937,0,3985,0
+Black & Blue,Wensleydale with Cranberry,2,937,0,4677,0
+Black & Blue,Wensleydale with Cranberry,2,937,3934,4677,4678
+Black & Blue,FireFly Farms Christmas Sampler,2,937,0,2983,0
+Black & Blue,Organic Sourdough Sea Salt Crackers,2,937,0,5347,0
+Bloomy Breeze,Cradoc's Sea Salted Crackers,2,940,0,4475,0
+Bloomy Breeze,Jumping Jack,2,940,0,7272,0
+Bloomy Breeze,Legendary Blue,2,940,0,9201,0
+Bloomy Breeze,The Heritage Sampler,2,940,0,3985,0
+Bloomy Breeze,Wensleydale with Cranberry,2,940,0,4677,4678
+Cabra LaMancha,FireFly Farms Christmas Sampler,2,930,0,2983,0
+Cabra LaMancha,Flouwer Co. Artisanal Crackers,2,930,0,5343,0
+Cabra LaMancha,Green Dirt Prairie Tomme,2,930,0,12550,0
+Cabra LaMancha,The Heritage Sampler,2,930,0,3985,0
+Cabrita,Merry Goat Round Spruce Reserve,2,8862,0,1903,0
+Cabrita,Organic Sourdough Sea Salt Crackers,2,8862,0,5347,0
+Carpenter's Wheel,Jumping Jack,2,2078,0,7272,0
+Carpenter's Wheel,Legendary Blue,2,2078,0,9201,0
+Carpenter's Wheel,Legendary Moo,2,2078,0,13261,0
+Carpenter's Wheel,Moo & Blue,2,2078,0,934,0
+Carpenter's Wheel,Shakerag Blue,2,2078,0,8383,0
+Carpenter's Wheel,Cradoc's Sea Salted Crackers,2,2078,3933,4475,0
+Carpenter's Wheel,FireFly Farms Christmas Sampler,2,2078,3933,2983,0
+Carpenter's Wheel,Wensleydale with Cranberry,2,2078,0,4677,0
+Cave Dweller,Flouwer Co. Artisanal Crackers,2,947,0,5343,0
+Cave Dweller,Red Leicester,2,947,0,11909,0
+Cave Dweller,FireFly Farms Christmas Sampler,2,947,3927,2983,0
+Coffee Blossom Honey,Nat's Nuts Cinnamon Whiskey Pecans,2,5388,0,5350,0
+Cow's Milk Sampler,Merry Goat Round,2,3992,0,943,0
+Cow's Milk Sampler,Wensleydale with Cranberry,2,3992,0,4677,0
+Cradoc's Sea Salted Crackers,Fresh Goat Cheese,2,4475,0,953,0
+FireFly Farms Christmas Sampler,Fresh Goat Cheese,2,2983,0,953,0
+FireFly Farms Christmas Sampler,Parra Jimenez Organic Manchego,2,2983,0,12544,0
+FireFly Farms Christmas Sampler,Red Leicester,2,2983,0,11909,0
+Flouwer Co. Artisanal Crackers,Jumping Jack,2,5343,0,7272,0
+Flouwer Co. Artisanal Crackers,Legendary Blue,2,5343,0,9201,0
+Flouwer Co. Artisanal Crackers,Mountain Top,2,5343,0,950,0
+Flouwer Co. Artisanal Crackers,The Heritage Sampler,2,5343,0,3985,0
+Fresh Goat Cheese,Parra Jimenez Organic Manchego,2,953,0,12544,0
+Fresh Goat Cheese,Potter's Organic Winter Wheat Crackers,2,953,0,12554,0
+Green Dirt Prairie Tomme,Wensleydale with Cranberry,2,12550,0,4677,0
+Honey honey — sampler box,The Heritage Sampler,2,2802,0,3985,0
+Jumping Jack,Legendary Blue,2,7272,0,9201,0
+Jumping Jack,Merry Goat Round Spruce Reserve,2,7272,0,1903,0
+Jumping Jack,Merry Goat Round,2,7272,0,943,0
+Legendary Blue,White Rock,2,9201,0,4602,0
+Merry Goat Round,Mother's Day Gift Box,2,943,0,3351,0
+Merry Goat Round,Potter's Organic Winter Wheat Crackers,2,943,0,12554,0
+Merry Goat Round,Red Leicester,2,943,0,11909,0
+Merry Goat Round Spruce Reserve,Organic Sourdough Sea Salt Crackers,2,1903,0,5347,0
+Moo & Blue,Taste of Fall,2,934,0,2884,0
+Moo & Blue,Wensleydale with Cranberry,2,934,3935,4677,4678
+Moo & Blue,Wensleydale with Cranberry,2,934,0,4677,0
+Moo & Blue,White Rock,2,934,3935,4602,0
+Mountain Top,Nat's Nuts Cinnamon Whiskey Pecans,2,950,0,5350,0
+Nat's Nuts Cinnamon Whiskey Pecans,Organic Sourdough Sea Salt Crackers,2,5350,0,5347,0
+Nat's Nuts Cinnamon Whiskey Pecans,The Heritage Sampler,2,5350,0,3985,0
+Organic Sourdough Sea Salt Crackers,The Heritage Sampler,2,5347,0,3985,0
+Organic Sourdough Sea Salt Crackers,White Rock,2,5347,0,4602,0
+Parra Jimenez Organic Manchego,Red Leicester,2,12544,0,11909,0
+Parra Jimenez Organic Manchego,Wensleydale with Cranberry,2,12544,0,4677,0
+The Heritage Sampler,Winter Blues,2,3985,0,3979,0
+Wensleydale with Cranberry,White Rock,2,4677,0,4602,0
+Wensleydale with Cranberry,White Rock,2,4677,4678,4602,0
+All Goat,All Spruced Up — sampler box,1,3990,0,2772,0
+All Goat,Barely Blue — sampler box,1,3990,0,2800,0
+All Goat,Bloomy Breeze,1,3990,0,940,0
+All Goat,Cabra LaMancha,1,3990,0,930,0
+All Goat,Carpenter's Wheel,1,3990,0,2078,3933
+All Goat,Cradoc's Sea Salted Crackers,1,3990,0,4475,0
+All Goat,Merry Goat Round Spruce Reserve,1,3990,0,1903,0
+All Goat,Mountain Top,1,3990,0,950,0
+All Goat,The Heritage Sampler,1,3990,0,3985,0
+All Goat,Wensleydale with Cranberry,1,3990,0,4677,0
+All Goat,White Rock,1,3990,0,4602,0
+All Spruced Up — sampler box,Cabra LaMancha,1,2772,0,930,0
+All Spruced Up — sampler box,Cabra LaMancha,1,2772,0,930,3937
+All Spruced Up — sampler box,Carpenter's Wheel,1,2772,0,2078,3933
+All Spruced Up — sampler box,Fresh Goat Cheese,1,2772,0,953,0
+All Spruced Up — sampler box,Merry Goat Round,1,2772,0,943,0
+All Spruced Up — sampler box,Moo & Blue,1,2772,0,934,0
+All Spruced Up — sampler box,Moo & Blue,1,2772,0,934,3935
+All Spruced Up — sampler box,Mountain Top,1,2772,0,950,0
+All Spruced Up — sampler box,The Heritage Sampler,1,2772,0,3985,0
+All Spruced Up — sampler box,Wensleydale with Cranberry,1,2772,0,4677,4678
+All Spruced Up — sampler box,White Rock,1,2772,0,4602,0
+All Spruced Up — sampler box,Winter Blues,1,2772,0,3979,0
+Artisan Fruitcake Crisps,Fresh Goat Cheese,1,13478,0,953,0
+Artisan Fruitcake Crisps,Merry Goat Round Spruce Reserve,1,13478,0,1903,0
+Artisan Fruitcake Crisps,Potter's Organic Winter Wheat Crackers,1,13478,0,12554,0
+Barely Blue — sampler box,Black & Blue,1,2800,0,937,3934
+Barely Blue — sampler box,Bloomy Breeze,1,2800,0,940,0
+Barely Blue — sampler box,Cabra LaMancha,1,2800,0,930,0
+Barely Blue — sampler box,Cow's Milk Sampler,1,2800,0,3992,0
+Barely Blue — sampler box,Merry Goat Round Spruce Reserve,1,2800,0,1903,0
+Barely Blue — sampler box,Wensleydale with Cranberry,1,2800,0,4677,4678
+Barnacle Foods Spruce Tip Jelly,FireFly Sampler,1,12713,0,12644,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Bloomy Breeze,1,4634,0,940,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Cabra LaMancha,1,4634,0,930,3937
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Cave Dweller,1,4634,0,947,3927
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Fresh Goat Cheese,1,4634,0,953,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Honey honey — sampler box,1,4634,0,2802,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,Mountain Top,1,4634,0,950,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,The Heritage Sampler,1,4634,0,3985,0
+Big Picture Farm Chocolate Covered Goat Milk Caramels,White Rock,1,4634,0,4602,0
+Black & Blue,Coffee Blossom Honey,1,937,0,5388,0
+Black & Blue,Herdsman,1,937,0,8385,0
+Black & Blue,Shakerag Blue,1,937,0,8383,0
+Black & Blue,Cradoc's Sea Salted Crackers,1,937,3934,4475,0
+Black & Blue,FireFly Farms Christmas Sampler,1,937,3934,2983,0
+Black & Blue,FireFly Farms Online Gift Card - $100,1,937,3934,3156,3727
+Black & Blue,Mother's Day Gift Box,1,937,3934,3351,0
+Black & Blue,The Heritage Sampler,1,937,3934,3985,0
+Black & Blue,Legendary Moo,1,937,0,13261,0
+Black & Blue,Nat's Nuts Maple Bourbon Almonds,1,937,0,9520,0
+Black & Blue,Nat's Nuts Vanilla Chai Cashews,1,937,0,9518,0
+Black & Blue,Parra Jimenez Organic Manchego,1,937,0,12544,0
+Blake Hill Gooseberry with Elderflower,Cabra LaMancha,1,13474,0,930,0
+Blake Hill Gooseberry with Elderflower,Cave Dweller,1,13474,0,947,0
+Blake Hill Gooseberry with Elderflower,Merry Goat Round,1,13474,0,943,0
+Blake Hill Gooseberry with Elderflower,West Virginia Cherry-Jalapeño Pepper Jam,1,13474,0,13476,0
+Blake Hill Gooseberry with Elderflower,White Rock,1,13474,0,4602,0
+Bloomy Breeze,Coffee Blossom Honey,1,940,0,5388,0
+Bloomy Breeze,Cow's Milk Sampler,1,940,0,3992,0
+Bloomy Breeze,FireFly Farms Christmas Sampler,1,940,0,2983,0
+Bloomy Breeze,FireFly Sampler,1,940,0,12644,0
+Bloomy Breeze,Green Dirt Prairie Tomme,1,940,0,12550,0
+Bloomy Breeze,Honey honey — sampler box,1,940,0,2802,0
+Bloomy Breeze,Taste of Fall,1,940,0,2884,0
+Bloomy Breeze,Winter Blues,1,940,0,3979,0
+Cabra LaMancha,Jumping Jack,1,930,0,7272,0
+Cabra LaMancha,Legendary Moo,1,930,0,13261,0
+Cabra LaMancha,Nat's Nuts Cinnamon Whiskey Pecans,1,930,0,5350,0
+Cabra LaMancha,Parra Jimenez Organic Manchego,1,930,0,12544,0
+Cabra LaMancha,Potter's Organic Winter Wheat Crackers,1,930,0,12554,0
+Cabra LaMancha,West Virginia Cherry-Jalapeño Pepper Jam,1,930,0,13476,0
+Cabra LaMancha,Cow's Milk Sampler,1,930,3937,3992,0
+Cabra LaMancha,FireFly Farms Christmas Sampler,1,930,3937,2983,0
+Cabra LaMancha,FireFly Farms Online Gift Card - $100,1,930,3937,3156,3727
+Cabra LaMancha,Honey honey — sampler box,1,930,3937,2802,0
+Cabrita,Herdsman,1,8862,0,8385,0
+Cabrita,Shakerag Blue,1,8862,0,8383,0
+Cabrita,The Heritage Sampler,1,8862,0,3985,0
+Carpenter's Wheel,Coffee Blossom Honey,1,2078,0,5388,0
+Carpenter's Wheel,Cow's Milk Sampler,1,2078,0,3992,0
+Carpenter's Wheel,Flouwer Co. Artisanal Crackers,1,2078,0,5343,0
+Carpenter's Wheel,Green Dirt Prairie Tomme,1,2078,0,12550,0
+Carpenter's Wheel,Herdsman,1,2078,0,8385,0
+Carpenter's Wheel,Mother's Day Gift Box,1,2078,0,3351,0
+Carpenter's Wheel,Nat's Nuts Cinnamon Whiskey Pecans,1,2078,0,5350,0
+Carpenter's Wheel,Organic Sourdough Sea Salt Crackers,1,2078,0,5347,0
+Carpenter's Wheel,Parra Jimenez Organic Manchego,1,2078,0,12544,0
+Carpenter's Wheel,Red Leicester,1,2078,0,11909,0
+Carpenter's Wheel,Cow's Milk Sampler,1,2078,3933,3992,0
+Carpenter's Wheel,FireFly Farms Online Gift Card - $100,1,2078,3933,3156,3727
+Carpenter's Wheel,Honey honey — sampler box,1,2078,3933,2802,0
+Carpenter's Wheel,The Heritage Sampler,1,2078,0,3985,0
+Cave Dweller,Cow's Milk Sampler,1,947,0,3992,0
+Cave Dweller,FireFly Farms Christmas Sampler,1,947,0,2983,0
+Cave Dweller,FireFly Sampler,1,947,0,12644,0
+Cave Dweller,Herdsman,1,947,0,8385,0
+Cave Dweller,Legendary Blue,1,947,0,9201,0
+Cave Dweller,Parra Jimenez Organic Manchego,1,947,0,12544,0
+Cave Dweller,Potter's Organic Winter Wheat Crackers,1,947,0,12554,0
+Cave Dweller,Shakerag Blue,1,947,0,8383,0
+Cave Dweller,The Heritage Sampler,1,947,0,3985,0
+Cave Dweller,West Virginia Cherry-Jalapeño Pepper Jam,1,947,0,13476,0
+Cave Dweller,Wensleydale with Cranberry,1,947,0,4677,0
+Cheese Wedge Ornament,FireFly Farms Christmas Sampler,1,12547,0,2983,0
+Cheese Wedge Ornament,Parra Jimenez Organic Manchego,1,12547,0,12544,0
+Coffee Blossom Honey,Cow's Milk Sampler,1,5388,0,3992,0
+Coffee Blossom Honey,Flouwer Co. Artisanal Crackers,1,5388,0,5343,0
+Coffee Blossom Honey,Fresh Goat Cheese,1,5388,0,953,0
+Coffee Blossom Honey,Merry Goat Round Spruce Reserve,1,5388,0,1903,0
+Coffee Blossom Honey,White Rock,1,5388,0,4602,0
+Cow's Milk Sampler,Cradoc's Sea Salted Crackers,1,3992,0,4475,0
+Cow's Milk Sampler,FireFly Farms Christmas Sampler,1,3992,0,2983,0
+Cow's Milk Sampler,Fresh Goat Cheese,1,3992,0,953,0
+Cow's Milk Sampler,Nat's Nuts Cinnamon Whiskey Pecans,1,3992,0,5350,0
+Cow's Milk Sampler,Organic Sourdough Sea Salt Crackers,1,3992,0,5347,0
+Cow's Milk Sampler,Winter Blues,1,3992,0,3979,0
+Cradoc's Sea Salted Crackers,Merry Goat Round Spruce Reserve,1,4475,0,1903,0
+Cradoc's Sea Salted Crackers,Mountain Top,1,4475,0,950,0
+FireFly Farms Christmas Sampler,Honey honey — sampler box,1,2983,0,2802,0
+FireFly Farms Christmas Sampler,Merry Goat Round,1,2983,0,943,0
+FireFly Farms Christmas Sampler,Moo & Blue,1,2983,0,934,0
+FireFly Farms Christmas Sampler,Moo & Blue,1,2983,0,934,3935
+FireFly Farms Online Gift Card - $100,Merry Goat Round,1,3156,3727,943,0
+FireFly Farms Online Gift Card - $100,Moo & Blue,1,3156,3727,934,3935
+FireFly Sampler,Fresh Goat Cheese,1,12644,0,953,0
+FireFly Sampler,Potter's Organic Winter Wheat Crackers,1,12644,0,12554,0
+Flouwer Co. Artisanal Crackers,Fresh Goat Cheese,1,5343,0,953,0
+Fresh Goat Cheese,Herdsman,1,953,0,8385,0
+Fresh Goat Cheese,Honey honey — sampler box,1,953,0,2802,0
+Fresh Goat Cheese,Jumping Jack,1,953,0,7272,0
+Fresh Goat Cheese,Nat's Nuts Cinnamon Whiskey Pecans,1,953,0,5350,0
+Fresh Goat Cheese,Nat's Nuts Maple Bourbon Almonds,1,953,0,9520,0
+Fresh Goat Cheese,Nat's Nuts Vanilla Chai Cashews,1,953,0,9518,0
+Fresh Goat Cheese,Organic Sourdough Sea Salt Crackers,1,953,0,5347,0
+Fresh Goat Cheese,Shakerag Blue,1,953,0,8383,0
+Fresh Goat Cheese,Wensleydale with Cranberry,1,953,0,4677,0
+Fresh Goat Cheese,Wensleydale with Cranberry,1,953,0,4677,4678
+Green Dirt Prairie Tomme,White Rock,1,12550,0,4602,0
+Herdsman,Jumping Jack,1,8385,0,7272,0
+Herdsman,Merry Goat Round Spruce Reserve,1,8385,0,1903,0
+Herdsman,Shakerag Blue,1,8385,0,8383,0
+Herdsman,White Rock,1,8385,0,4602,0
+Honey honey — sampler box,Merry Goat Round,1,2802,0,943,0
+Honey honey — sampler box,Merry Goat Round Spruce Reserve,1,2802,0,1903,0
+Honey honey — sampler box,Taste of Fall,1,2802,0,2884,0
+Jumping Jack,Mountain Top,1,7272,0,950,0
+Jumping Jack,Shakerag Blue,1,7272,0,8383,0
+Jumping Jack,Nat's Nuts Cinnamon Whiskey Pecans,1,7272,0,5350,0
+Jumping Jack,Organic Sourdough Sea Salt Crackers,1,7272,0,5347,0
+Legendary Blue,Merry Goat Round,1,9201,0,943,0
+Legendary Blue,Merry Goat Round Spruce Reserve,1,9201,0,1903,0
+Legendary Blue,Nat's Nuts Cinnamon Whiskey Pecans,1,9201,0,5350,0
+Legendary Blue,Organic Sourdough Sea Salt Crackers,1,9201,0,5347,0
+Legendary Blue,The Heritage Sampler,1,9201,0,3985,0
+Legendary Moo,Merry Goat Round,1,13261,0,943,0
+Legendary Moo,Mountain Top,1,13261,0,950,0
+Legendary Moo,Parra Jimenez Organic Manchego,1,13261,0,12544,0
+Legendary Moo,Red Leicester,1,13261,0,11909,0
+Merry Goat Round,Nat's Nuts Maple Bourbon Almonds,1,943,0,9520,0
+Merry Goat Round,Nat's Nuts Vanilla Chai Cashews,1,943,0,9518,0
+Merry Goat Round,Shakerag Blue,1,943,0,8383,0
+Merry Goat Round,Taste of Fall,1,943,0,2884,0
+Merry Goat Round,The Heritage Sampler,1,943,0,3985,0
+Merry Goat Round,West Virginia Cherry-Jalapeño Pepper Jam,1,943,0,13476,0
+Merry Goat Round,Wine Down Wednesday Sampler Box,1,943,0,3152,0
+Merry Goat Round,Winter Blues,1,943,0,3979,0
+Merry Goat Round Spruce Reserve,Nat's Nuts Cinnamon Whiskey Pecans,1,1903,0,5350,0
+Merry Goat Round Spruce Reserve,Potter's Organic Winter Wheat Crackers,1,1903,0,12554,0
+Merry Goat Round Spruce Reserve,Shakerag Blue,1,1903,0,8383,0
+Merry Goat Round Spruce Reserve,Wensleydale with Cranberry,1,1903,0,4677,4678
+Moo & Blue,Red Leicester,1,934,0,11909,0
+Mother's Day Gift Box,Mountain Top,1,3351,0,950,0
+Mother's Day Gift Box,Shakerag Blue,1,3351,0,8383,0
+Mother's Day Gift Box,The Heritage Sampler,1,3351,0,3985,0
+Mountain Top,Nat's Nuts Maple Bourbon Almonds,1,950,0,9520,0
+Mountain Top,Nat's Nuts Vanilla Chai Cashews,1,950,0,9518,0
+Mountain Top,Organic Sourdough Sea Salt Crackers,1,950,0,5347,0
+Mountain Top,Parra Jimenez Organic Manchego,1,950,0,12544,0
+Mountain Top,Shakerag Blue,1,950,0,8383,0
+Mountain Top,The Heritage Sampler,1,950,0,3985,0
+Mountain Top,Wensleydale with Cranberry,1,950,0,4677,0
+Nat's Nuts Maple Bourbon Almonds,Nat's Nuts Vanilla Chai Cashews,1,9520,0,9518,0
+Nat's Nuts Maple Bourbon Almonds,White Rock,1,9520,0,4602,0
+Nat's Nuts Vanilla Chai Cashews,White Rock,1,9518,0,4602,0
+Potter's Organic Winter Wheat Crackers,Wensleydale with Cranberry,1,12554,0,4677,0
+Red Leicester,White Rock,1,11909,0,4602,0
+Shakerag Blue,White Rock,1,8383,0,4602,0
+The Heritage Sampler,Wensleydale with Cranberry,1,3985,0,4677,0
+The Heritage Sampler,White Rock,1,3985,0,4602,0
+West Virginia Cherry-Jalapeño Pepper Jam,White Rock,1,13476,0,4602,0

@@ -1,0 +1,22 @@
+Event name,Event count
+page_view,176640
+user_engagement,116422
+session_start,92256
+first_visit,70044
+view_item_list,52087
+scroll,44950
+view_item,35747
+video_progress,15781
+select_content,11604
+form_start,5608
+video_start,4440
+add_to_cart,4089
+click,3958
+video_complete,3360
+form_submit,2328
+autocomplete_search,2034
+begin_checkout,1568
+view_search_results,911
+file_download,543
+purchase,391
+remove_from_cart,121

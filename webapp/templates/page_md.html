@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — FireFly{% endblock %}
+{% block body %}
+<header class="page-head">
+  <h1>{{ title }}</h1>
+</header>
+<section class="card prose">
+  <div class="md">{{ body_html | safe }}</div>
+</section>
+<footer>
+  <small><a href="{{ url_for('index') }}">← Home</a></small>
+</footer>
+{% endblock %}

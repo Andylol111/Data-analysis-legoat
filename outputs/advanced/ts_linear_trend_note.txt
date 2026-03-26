@@ -1,0 +1,1 @@
+Linear trend extrapolation on monthly net revenue (not ARIMA). CI uses global residual std — for exploration only.

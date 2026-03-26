@@ -1,0 +1,523 @@
+# ----------------------------------------
+# Reports snapshot
+# Account: FireFly Farms
+# Property: FireFly Farms
+# ----------------------------------------
+#  
+# Start date: 20260220
+# End date: 20260319
+Nth day,Active users
+0000,100
+0001,115
+0002,96
+0003,88
+0004,106
+0005,101
+0006,94
+0007,118
+0008,97
+0009,102
+0010,95
+0011,85
+0012,71
+0013,152
+0014,129
+0015,159
+0016,94
+0017,122
+0018,83
+0019,103
+0020,118
+0021,124
+0022,143
+0023,83
+0024,97
+0025,84
+0026,99
+0027,108
+
+# Start date: 20260220
+# End date: 20260319
+Nth day,New users
+0000,94
+0001,103
+0002,85
+0003,80
+0004,101
+0005,91
+0006,86
+0007,107
+0008,91
+0009,92
+0010,87
+0011,80
+0012,60
+0013,142
+0014,111
+0015,138
+0016,87
+0017,117
+0018,76
+0019,95
+0020,102
+0021,114
+0022,128
+0023,76
+0024,88
+0025,79
+0026,88
+0027,106
+
+# Start date: 20260220
+# End date: 20260319
+Nth day,Average engagement time per active user
+0000,34.97
+0001,58.278260869565216
+0002,57.385416666666664
+0003,33.80681818181818
+0004,49.84905660377358
+0005,23.445544554455445
+0006,32.57446808510638
+0007,28.97457627118644
+0008,41.97938144329897
+0009,27.96078431372549
+0010,43.589473684210525
+0011,43.55294117647059
+0012,40.028169014084504
+0013,32.48026315789474
+0014,32.48837209302326
+0015,36.59748427672956
+0016,44.54255319148936
+0017,27.147540983606557
+0018,44.265060240963855
+0019,31.485436893203882
+0020,44.313559322033896
+0021,24.68548387096774
+0022,50.43356643356643
+0023,44.48192771084337
+0024,38.88659793814433
+0025,31.88095238095238
+0026,39.303030303030305
+0027,47.69444444444444
+
+# Start date: 20260220
+# End date: 20260319
+Nth day,Total revenue
+0000,0
+0001,399.92
+0002,86.03
+0003,0
+0004,232.81
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,97.34
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,104.41
+0017,0
+0018,0
+0019,0
+0020,186.89
+0021,0
+0022,101.33
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+# Where do your new users come from?
+# Start date: 20260220
+# End date: 20260319
+First user primary channel group (Default Channel Group),New users
+Direct,1424
+Organic Search,920
+Referral,166
+SMS,78
+Email,61
+Organic Social,50
+Unassigned,5
+
+#  
+# Start date: 20260220
+# End date: 20260319
+Session primary channel group (Default Channel Group),Sessions
+Direct,1612
+Organic Search,1392
+Referral,217
+SMS,114
+Email,89
+Unassigned,65
+Organic Social,52
+
+#  
+# Start date: 20260220
+# End date: 20260319
+Country ID,Active users
+AE,2
+AR,1
+AU,1
+BD,2
+BR,9
+CA,42
+CN,227
+DE,1
+DZ,1
+EG,1
+FR,1
+GM,1
+ID,1
+IN,11
+IQ,3
+JM,1
+JP,3
+MX,2
+NP,2
+OM,1
+PH,5
+PK,3
+PR,2
+QA,1
+RU,2
+SG,402
+TH,1
+UA,2
+US,2143
+VE,1
+VN,6
+
+# Start date: 20260220
+# End date: 20260319
+Country,Active users
+US,2143
+SG,402
+CN,227
+CA,42
+IN,11
+BR,9
+VN,6
+
+# How are active users trending?
+# Start date: 20260220
+# End date: 20260319
+Nth day,30 days,7 days,1 day
+0000,2917,703,100
+0001,2952,713,115
+0002,2972,652,96
+0003,2962,659,88
+0004,2993,671,106
+0005,3010,697,101
+0006,2983,676,94
+0007,2988,697,118
+0008,2891,683,97
+0009,2890,688,102
+0010,2906,694,95
+0011,2911,678,85
+0012,2908,645,71
+0013,2970,703,152
+0014,2943,708,129
+0015,2965,763,159
+0016,2982,757,94
+0017,3009,790,122
+0018,2981,792,83
+0019,3017,828,103
+0020,2966,789,118
+0021,3020,783,124
+0022,3074,770,143
+0023,3053,754,83
+0024,3046,728,97
+0025,2975,734,84
+0026,2987,726,99
+0027,3005,718,108
+
+# How well do you retain your users?
+# Start date: 20260201
+# End date: 20260314
+Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
+Feb 1 - Feb 7,653,10,7,2,4,1
+Feb 8 - Feb 14,663,17,4,8,5,-1
+Feb 15 - Feb 21,669,6,6,1,-1,-1
+Feb 22 - Feb 28,641,4,5,-1,-1,-1
+Mar 1 - Mar 7,710,11,-1,-1,-1,-1
+Mar 8 - Mar 14,718,-1,-1,-1,-1,-1
+
+#  
+# Start date: 20260220
+# End date: 20260319
+Page title and screen class,Views
+FireFly Farms | 20 Years of Cheese,1401
+Visit | FireFly Farms,1109
+Shop Online | FireFly Farms,662
+Merry Goat Round Spruce Reserve | FireFly Farms,339
+Cabra LaMancha | FireFly Farms,199
+FireFly Farms Cafe Menu | FireFly Farms,158
+Merry Goat Round | FireFly Farms,134
+Our Cheeses | FireFly Farms,115
+Black & Blue | FireFly Farms,93
+Cheese Club | FireFly Farms,93
+Fresh Goat Cheese | FireFly Farms,86
+FAQ | FireFly Farms,85
+My Account | FireFly Farms,85
+Our Difference | FireFly Farms,80
+Bloomy Breeze | FireFly Farms,76
+Contact | FireFly Farms,73
+Mountain Top | FireFly Farms,69
+Moo & Blue | FireFly Farms,68
+Cave Dweller | FireFly Farms,66
+Checkout | FireFly Farms,63
+FireFly Cheese Club | FireFly Farms,62
+Carpenter's Wheel | FireFly Farms,51
+Shipping | FireFly Farms,49
+Cart | FireFly Farms,48
+FireFly Sampler | FireFly Farms,46
+Page not found | FireFly Farms,46
+White Rock | FireFly Farms,43
+Farming | FireFly Farms,42
+Manufacturing | FireFly Farms,36
+News & Events | FireFly Farms,32
+Recipes Archive | FireFly Farms,30
+Careers | FireFly Farms,26
+Flouwer Co. Artisanal Crackers | FireFly Farms,26
+Huntsman (Long Clawson) | FireFly Farms,21
+Legendary Moo | FireFly Farms,21
+Mediterranean Tilapia with Fresh Goat Cheese | FireFly Farms,18
+Awards | FireFly Farms,17
+Wholesale | FireFly Farms,17
+yes Archives | FireFly Farms,16
+Sampler Boxes Archives | FireFly Farms,14
+On the Menu Archives | FireFly Farms,13
+"Bloomy Breeze featured in Antonelli's ""All American Picnic"" club box | FireFly Farms",11
+October Pairings at our Deep Creek Market | FireFly Farms,11
+FireFly Farms wins three places at 2025 ACS | FireFly Farms,10
+2025 | FireFly Farms,9
+All Goat | FireFly Farms,9
+Key Lime & Fresh Goat Cheese Cheesecake | FireFly Farms,8
+Mother's Day Gift Box | FireFly Farms,8
+Mushroom Goat Cheese Polenta Cake | FireFly Farms,8
+FireFly Cheese Archives | FireFly Farms,7
+"Grapefruit, Goat Cheese, & Arugula Salad with Cranberries and Pine Nuts | FireFly Farms",7
+Jams and Sweet Pairings Archives | FireFly Farms,7
+Merry Goat Round Soufflé | FireFly Farms,7
+3 month gift subscriptions Archives | FireFly Farms,6
+American Cheese Month | FireFly Farms,6
+Big Picture Farm Chocolate Covered Goat Milk Caramels | FireFly Farms,6
+FireFly Farms Celebrates 20 Years of Awards for Its Sustainable Artisan Cheese | FireFly Farms,6
+FireFly featured on Cutting the Curd podcast! | FireFly Farms,6
+FireFly’s Mike Koch Elected President of the American Cheese Society | FireFly Farms,6
+Blake Hill Gooseberry with Elderflower | FireFly Farms,5
+FireFly Farms Christmas Sampler | FireFly Farms,5
+Herdsman | FireFly Farms,5
+Legendary Blue | FireFly Farms,5
+Mushrooms Stuffed with Goat Cheese & Spinach | FireFly Farms,5
+Nat's Nuts Vanilla Chai Cashews | FireFly Farms,5
+Other Cheeses Archives | FireFly Farms,5
+You searched for Goat cheese | FireFly Farms,5
+"""FireFly Farms is Building a Better Food System,"" writes Saxelby | FireFly Farms",4
+2023 | FireFly Farms,4
+Apple and Fresh Goat Cheese Tart | FireFly Farms,4
+Cheese Box Quiz | FireFly Farms,4
+Cow's Milk Sampler | FireFly Farms,4
+"December 20, 2021 | FireFly Farms",4
+FireFly Farms,4
+FireFly Market Moves to Make Space for Cheese Making Expansion | FireFly Farms,4
+Firm Goat Cheese Archives | Page 2 of 2 | FireFly Farms,4
+Golden Beet Salad | FireFly Farms,4
+Herby Harissa Mac 'n Cheese | FireFly Farms,4
+Nat's Nuts Maple Bourbon Almonds | FireFly Farms,4
+"October 31, 2023 | FireFly Farms",4
+Our Cheeses Archives | FireFly Farms,4
+Recipes Archive | Page 2 of 4 | FireFly Farms,4
+Recipes Archive | Page 3 of 4 | FireFly Farms,4
+Red Leicester | FireFly Farms,4
+Risotto Goat Cheese Croquettes | FireFly Farms,4
+Scrambled Eggs with Fresh Goat Cheese & Wild Mushrooms | FireFly Farms,4
+Soft Goat Cheese Archives | FireFly Farms,4
+Watermelon & Blue Cheese Salad | FireFly Farms,4
+Website Archives | FireFly Farms,4
+Anne Saxelby Legacy Fund Supports New FireFly Apprentice | FireFly Farms,3
+"Apprentice from Madison, WI sponsored by Anne Saxelby Legacy Fund | FireFly Farms",3
+Barely Blue — sampler box | FireFly Farms,3
+Company and Team Honors Archives | FireFly Farms,3
+Cow Milk Cheese Archives | FireFly Farms,3
+Crackers Archives | FireFly Farms,3
+December 2022 | FireFly Farms,3
+Fall Wine Events! | FireFly Farms,3
+FireFly's Partnership with Murray's Cheese featured in the news | FireFly Farms,3
+Goat Cheese & Pistachio Soufflé | FireFly Farms,3
+Herby Harissa Fresh Goat Cheese Shakshuka | FireFly Farms,3
+January 2023 | FireFly Farms,3
+Lindera Farms' Candied Crab Apple Tart with Goat Milk Buttercream | FireFly Farms,3
+Mushroom and Onion Soup with Goat Cheese Toasts | FireFly Farms,3
+Nat's Nuts Cinnamon Whiskey Pecans | FireFly Farms,3
+Potter's Organic Winter Wheat Crackers | FireFly Farms,3
+"Stephan Sveshnikov, Author at FireFly Farms",3
+Subscription Boxes Archives | FireFly Farms,3
+Terms & Policies | FireFly Farms,3
+The Heritage Sampler | FireFly Farms,3
+Wensleydale with Cranberry | FireFly Farms,3
+Zucchini Butter & Fresh Goat Cheese Pasta | FireFly Farms,3
+"""We’re here to contribute to our community and preserve family farming..."" | FireFly Farms",2
+2019 | FireFly Farms,2
+A Maryland small business on how buying local is a very big deal | FireFly Farms,2
+All Spruced Up — sampler box | FireFly Farms,2
+Cabrita | FireFly Farms,2
+Creamy Goat Cheese Spinach and Shrimp Dip | FireFly Farms,2
+Dates Stuffed with Fresh Goat Cheese | FireFly Farms,2
+Father's Day Gift Box | FireFly Farms,2
+FireFly Farms Wins 3 Medals at the 2023 World Cheese Awards | FireFly Farms,2
+FireFly Wins 3 Medals at 39th American Cheese Society Conference | FireFly Farms,2
+"Fresh Goat Cheese, Fig, Jamon Serrano, and Arugula Pizza | FireFly Farms",2
+Girl Meets Dirt Rhubarb Lavender Spoon Preserves | FireFly Farms,2
+Honey honey — sampler box | FireFly Farms,2
+In the News Archives | Page 2 of 2 | FireFly Farms,2
+"January 6, 2023 | FireFly Farms",2
+Jumping Jack | FireFly Farms,2
+March 2023 | FireFly Farms,2
+Merry Goat Round & Wild Mushroom Tartlettes | FireFly Farms,2
+Mystery Cheese | FireFly Farms,2
+News & Events | Page 2 of 3 | FireFly Farms,2
+News & Events | Page 3 of 3 | FireFly Farms,2
+Organic Sourdough Sea Salt Crackers | FireFly Farms,2
+Parra Jimenez Organic Manchego | FireFly Farms,2
+Patagonia Rosemary Garlic Organic Crackers | FireFly Farms,2
+Preview our November Pairings | FireFly Farms,2
+September 2024 | FireFly Farms,2
+"Spinach Salad with Goat Cheese, Beet Chutney, Caramelized Walnuts, and Balsamic Vinaigrette | FireFly Farms",2
+Western Maryland’s FireFly Farms plans expansions throughout the state | FireFly Farms,2
+White House Worthy? Brian Keyser says yes! | FireFly Farms,2
+Winter Blues | FireFly Farms,2
+You searched for 16 oz goat cheese | FireFly Farms,2
+You searched for Butter | FireFly Farms,2
+You searched for Coffee | FireFly Farms,2
+You searched for Reggiano | FireFly Farms,2
+You searched for Sharp cheddar | FireFly Farms,2
+You searched for Wine | FireFly Farms,2
+"octavodesigns, Author at FireFly Farms",2
+| FireFly Farms,2
+American Cheese Month Sampler | FireFly Farms,1
+April 2022 | FireFly Farms,1
+Artisan Fruitcake Crisps | FireFly Farms,1
+Black & Blue (Pre-cut) | FireFly Farms,1
+"Blue Cheese, Pear, and Prosciutto Flatbread with Rosemary Vinaigrette | FireFly Farms",1
+Cheese Awards & Recognition Archives | FireFly Farms,1
+Cheese Wedge Ornament | FireFly Farms,1
+Cradoc's Sea Salted Crackers | FireFly Farms,1
+"FireFly Farms Mountain Top Blue featured in the ""Chattanooga Times Free Press"" | FireFly Farms",1
+FireFly Farms Opens New Retail Shop in Accident | FireFly Farms,1
+Firm Goat Cheese Archives | FireFly Farms,1
+Gift Cards Archives | FireFly Farms,1
+Green Dirt Prairie Tomme | FireFly Farms,1
+Grilled Merry Goat Round & Ham Sandwiches | FireFly Farms,1
+Halloween Sampler | FireFly Farms,1
+In the Retail Case Archives | FireFly Farms,1
+Login | FireFly Farms,1
+March 2026 | FireFly Farms,1
+Merry Goat Round and Wild Mushroom Crostini | FireFly Farms,1
+Mountain Top Blue & Leek Tart | FireFly Farms,1
+October 2025 | FireFly Farms,1
+"October 5, 2025 | FireFly Farms",1
+Privacy Policy | FireFly Farms,1
+Shakerag Blue | FireFly Farms,1
+"Stephan Sveshnikov, Author at FireFly Farms | Page 2 of 2",1
+Summer Wine Pairings at our Deep Creek Market | FireFly Farms,1
+Taste of Fall | FireFly Farms,1
+West Virginia Cherry-Jalapeño Pepper Jam | FireFly Farms,1
+You searched for 16 oz | FireFly Farms,1
+You searched for A2 cheese | FireFly Farms,1
+You searched for Braided cheese | FireFly Farms,1
+You searched for Braided string cheese | FireFly Farms,1
+You searched for Charcuterie gray | FireFly Farms,1
+You searched for Creamy | FireFly Farms,1
+You searched for Deluce | FireFly Farms,1
+You searched for Egf | FireFly Farms,1
+You searched for Fontina cheese | FireFly Farms,1
+You searched for Gift card | FireFly Farms,1
+You searched for Halloumi | FireFly Farms,1
+You searched for Haloumi | FireFly Farms,1
+You searched for Jake | FireFly Farms,1
+You searched for Lemon honey | FireFly Farms,1
+You searched for Parmesan | FireFly Farms,1
+You searched for Pet pro | FireFly Farms,1
+You searched for Pinch bowls | FireFly Farms,1
+You searched for Quail eggs | FireFly Farms,1
+You searched for Seeds | FireFly Farms,1
+You searched for Sheep cheese | FireFly Farms,1
+You searched for Valley Milkhouse oley pa | FireFly Farms,1
+You searched for beets | FireFly Farms,1
+You searched for butter | FireFly Farms,1
+You searched for colchicum | FireFly Farms,1
+You searched for eggs | FireFly Farms,1
+You searched for fat free | FireFly Farms,1
+You searched for shirt | FireFly Farms,1
+
+#  
+# Start date: 20260220
+# End date: 20260319
+Event name,Event count
+page_view,6191
+user_engagement,3779
+session_start,3483
+first_visit,2704
+view_item_list,1742
+scroll,1465
+view_item,1412
+select_content,388
+video_progress,203
+add_to_cart,170
+form_start,170
+autocomplete_search,107
+click,76
+form_submit,71
+video_start,68
+begin_checkout,52
+view_search_results,44
+video_complete,35
+purchase,10
+remove_from_cart,6
+
+# What are your top performing key events?
+# Start date: 20260220
+# End date: 20260319
+Event name,Key events
+purchase,10
+
+# Where does your average 120d value come from?
+# Start date: 20260220
+# End date: 20260319
+First user primary channel group (Default Channel Group),Average 120d value
+Email,1.5322950819672132
+Organic Search,0.9966847826086956
+Direct,0.1392626404494382
+
+#  
+# Start date: 20260220
+# End date: 20260319
+Item name,Items purchased
+Merry Goat Round,10
+Merry Goat Round Spruce Reserve,9
+Mountain Top,5
+Potter's Organic Winter Wheat Crackers,5
+Black &amp; Blue,3
+Bloomy Breeze,3
+Carpenter's Wheel,3
+Cave Dweller,3
+Moo &amp; Blue,2
+Artisan Fruitcake Crisps,1
+Blake Hill Gooseberry with Elderflower,1
+Cabra LaMancha,1
+FireFly Sampler,1
+Fresh Goat Cheese,1
+West Virginia Cherry-Jalapeño Pepper Jam,1
+White Rock,1
+
+# How does activity on your platforms compare?
+# Start date: 20260220
+# End date: 20260319
+Platform,Key events
+web,10
