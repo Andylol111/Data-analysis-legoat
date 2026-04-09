@@ -3,33 +3,22 @@
 {% block body %}
 <header class="page-head">
   <h1>FireFly Farms analytics</h1>
-  <p class="sub">Local view of <code>outputs/</code> — run <code>./startall.sh</code> to refresh. <a href="{{ url_for('order_heatmap_map') }}">Order heatmap</a> (free OpenStreetMap) shows billing-state volume with the farm marked. Use <a href="{{ url_for('dashboard') }}">Custom charts</a> to build graphs from any CSV; see the <a href="{{ url_for('guide') }}">data dictionary</a> for what each file means.</p>
+  <p class="sub"><code>./startall.sh</code> or <code>run_analysis.py</code>. <a href="{{ url_for('order_heatmap_map') }}">Map</a> · <a href="{{ url_for('dashboard') }}">Charts</a> · <a href="{{ url_for('guide') }}">Dictionary</a> · <a href="{{ url_for('methods') }}">Methods</a></p>
 </header>
-
-<section class="card">
-  <h2>What you’re looking at</h2>
-  <ul class="explain">
-    <li><strong>Report</strong> — Auto summary from the last <code>run_analysis.py</code> (counts, filters, what ran).</li>
-    <li><strong>Figures</strong> — PNG exports (trends, maps of metrics, NMF factors, etc.).</li>
-    <li><strong>Data tables</strong> — CSVs you can preview or download; most are described in the <a href="{{ url_for('guide') }}">dictionary</a>.</li>
-    <li><strong>Advanced methods</strong> — See which of the 11 planned methods are live vs roadmap: <a href="{{ url_for('methods') }}">status page</a>.</li>
-  </ul>
-</section>
 
 <section class="card">
   <h2>Report</h2>
   {% if report_html %}
   <div class="md">{{ report_html | safe }}</div>
   {% else %}
-  <p>No <code>REPORT.md</code> yet. Run <code>python3 run_analysis.py</code>.</p>
+  <p>No <code>REPORT.md</code>. Run <code>python3 run_analysis.py</code>.</p>
   {% endif %}
 </section>
 
 <section class="card">
   <h2>Figures</h2>
   <p class="btn-row home-export">
-    <a href="{{ url_for('export_all_figures_zip') }}" class="btn" id="btn-export-all-figures">Download all figures (ZIP)</a>
-    <span class="small">Every PNG under <code>outputs/</code> (charts from the analysis run).</span>
+    <a href="{{ url_for('export_all_figures_zip') }}" class="btn" id="btn-export-all-figures">All figures (ZIP)</a>
   </p>
   <div class="figure-grid">
     {% for f in figures %}
@@ -40,17 +29,16 @@
       <figcaption>{{ f.name }} <span class="meta">({{ f.size_kb }} KB)</span></figcaption>
     </figure>
     {% else %}
-    <p>No PNG files in outputs.</p>
+    <p>No PNGs in outputs.</p>
     {% endfor %}
   </div>
 </section>
 
 <section class="card">
-  <h2>Data tables (CSV)</h2>
+  <h2>CSVs</h2>
   <p class="btn-row home-export">
-    <a href="{{ url_for('export_all_csvs_zip') }}" class="btn">Download all CSVs (ZIP)</a>
-    <a href="{{ url_for('export_all_csvs_merged') }}" class="btn">Download merged CSV</a>
-    <span class="small">ZIP: every CSV under <code>outputs/</code>. Merged: all rows in one file with <code>_source</code> column.</span>
+    <a href="{{ url_for('export_all_csvs_zip') }}" class="btn">All CSVs (ZIP)</a>
+    <a href="{{ url_for('export_all_csvs_merged') }}" class="btn">Merged (one file, <code>_source</code>)</a>
   </p>
   <ul class="file-list">
     {% for f in tables %}
@@ -60,14 +48,14 @@
       <a class="dl" href="{{ url_for('download', rel=f.rel) }}">download</a>
     </li>
     {% else %}
-    <li>No CSV files.</li>
+    <li>No CSVs.</li>
     {% endfor %}
   </ul>
 </section>
 
 {% if other %}
 <section class="card">
-  <h2>Other files</h2>
+  <h2>Other</h2>
   <ul class="file-list">
     {% for f in other %}
     <li>
@@ -80,6 +68,6 @@
 {% endif %}
 
 <footer>
-  <small>Served from Flask · data stays on this machine · Production: use <code>gunicorn</code> (see README)</small>
+  <small>Local Flask app. Production: README + <code>gunicorn</code>.</small>
 </footer>
 {% endblock %}

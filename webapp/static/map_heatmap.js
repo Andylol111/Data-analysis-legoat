@@ -269,7 +269,7 @@
       riseOnHover: true,
     })
       .addTo(leafMap)
-      .bindPopup("<strong>" + escapeHtml(data.farm.title) + "</strong><p>Creamery location</p>", {
+      .bindPopup("<strong>" + escapeHtml(data.farm.title) + "</strong>", {
         className: "map-popup-themed",
       });
 
@@ -300,12 +300,7 @@
       if (data.meta && data.meta.message && (!data.points || !data.points.length)) {
         setStatus(data.meta.message);
       } else if (data.meta && data.meta.source) {
-        setStatus(
-          "Data: " +
-            data.meta.source +
-            " · Intensity: " +
-            (data.meta.weight_by || weight)
-        );
+        setStatus(data.meta.source + " · " + (data.meta.weight_by || weight));
       } else {
         setStatus("");
       }

@@ -1,47 +1,42 @@
 {% extends "base.html" %}
-{% block title %}Order heatmap — FireFly Farms{% endblock %}
+{% block title %}Map — FireFly Farms{% endblock %}
 {% block head_extra %}
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 {% endblock %}
 {% block body %}
 <header class="page-head">
-  <h1>Order geography — interactive heatmap</h1>
-  <p class="sub">
-    <span class="map-provider-pill osm">Free · OpenStreetMap</span>
-    <strong>Hover</strong> states on the map for a quick summary — <strong>click</strong> circles or the list for full numbers.
-    Red <strong>★</strong> = FireFly Farms (Accident, MD).
-  </p>
+  <h1>Orders by state</h1>
+  <p class="sub">Billing state centroids from <code>revenue_by_billing_state.csv</code>. ★ = farm.</p>
 </header>
 
 <section class="card map-heat-card">
   <p class="btn-row map-heat-controls">
-    <label class="inline-label">Highlight intensity by:
+    <label class="inline-label">Color by
       <select id="heatmap-weight">
-        <option value="orders" selected>Order count</option>
-        <option value="revenue">Net revenue ($)</option>
+        <option value="orders" selected>Orders</option>
+        <option value="revenue">Revenue</option>
       </select>
     </label>
     <span class="map-toggles">
-      <label class="check-inline"><input type="checkbox" id="toggle-heat-layer" checked /> Heat glow</label>
-      <label class="check-inline"><input type="checkbox" id="toggle-circles" checked /> State circles</label>
+      <label class="check-inline"><input type="checkbox" id="toggle-heat-layer" checked /> Heat</label>
+      <label class="check-inline"><input type="checkbox" id="toggle-circles" checked /> Circles</label>
     </span>
     <span id="heatmap-status" class="small muted"></span>
   </p>
 
   <div class="map-explorer">
     <div class="map-explorer-map">
-      <div id="map-heatmap" class="map-heatmap" role="application" aria-label="Interactive order heatmap"></div>
+      <div id="map-heatmap" class="map-heatmap" role="application" aria-label="Order map"></div>
     </div>
-    <aside class="map-explorer-sidebar" aria-label="Orders by state">
+    <aside class="map-explorer-sidebar" aria-label="By state">
       <div class="map-sidebar-head">
-        <h3>Orders by state</h3>
-        <p class="small muted sidebar-hint">Click a row to zoom in and open details.</p>
+        <h3>States</h3>
       </div>
       <div id="map-state-list" class="map-state-list"></div>
     </aside>
   </div>
 
-  <p id="heatmap-empty" class="heatmap-empty small hidden">No geographic data yet. Run <code>python3 run_analysis.py</code> with <code>data/orders_export_no_pii.csv</code>.</p>
+  <p id="heatmap-empty" class="heatmap-empty small hidden">Need <code>outputs/revenue_by_billing_state.csv</code> — run analysis with <code>data/orders_export_no_pii.csv</code>.</p>
 </section>
 
 <script>window.__HEATMAP__ = {{ map_config | tojson }};</script>

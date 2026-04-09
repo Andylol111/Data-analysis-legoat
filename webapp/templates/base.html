@@ -10,12 +10,12 @@
 <body>
   <nav class="topnav">
     <a href="{{ url_for('index') }}">Home</a>
-    <a href="{{ url_for('dashboard') }}">Custom charts</a>
-    <a href="{{ url_for('order_heatmap_map') }}">Order heatmap</a>
-    <a href="{{ url_for('export_all_figures_zip') }}" class="nav-btn">Export figures (ZIP)</a>
-    <a href="{{ url_for('export_all_csvs_zip') }}" class="nav-btn">Export all CSVs (ZIP)</a>
-    <a href="{{ url_for('guide') }}">Data dictionary</a>
-    <a href="{{ url_for('methods') }}">11 methods status</a>
+    <a href="{{ url_for('dashboard') }}">Charts</a>
+    <a href="{{ url_for('order_heatmap_map') }}">Map</a>
+    <a href="{{ url_for('export_all_figures_zip') }}" class="nav-btn">Figures ZIP</a>
+    <a href="{{ url_for('export_all_csvs_zip') }}" class="nav-btn">CSVs ZIP</a>
+    <a href="{{ url_for('guide') }}">Dictionary</a>
+    <a href="{{ url_for('methods') }}">Methods</a>
   </nav>
   {% block body %}{% endblock %}
 </body>

@@ -369,7 +369,7 @@ def api_chat():
             {
                 "reply": None,
                 "error": err,
-                "hint": "Install and run Ollama locally, then: ollama pull llama3.2  (set OLLAMA_MODEL if needed)",
+                "hint": "Start Ollama; try ollama pull llama3.2",
             }
         ), 503
     return jsonify({"reply": reply, "error": None})

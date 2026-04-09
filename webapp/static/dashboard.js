@@ -44,7 +44,7 @@ document.getElementById("btn-export-all").addEventListener("click", () => {
   const err = document.getElementById("chart-err");
   err.textContent = "";
   if (!lastExport || !chartInstance) {
-    err.textContent = "Render a chart first, then export.";
+    err.textContent = "Render a chart first.";
     return;
   }
   const base = `${sanitizeBase(lastExport.body.file)}_${Date.now()}`;
