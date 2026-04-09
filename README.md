@@ -59,7 +59,7 @@ Place CSV exports in **`data/`** (see `src/config.py`). Use **`orders_export_no_
 - **`/dashboard`** — Pick any CSV under `outputs/`, choose **X** / **Y**, chart type (bar, line, scatter), optional aggregate. Renders in the browser via Chart.js. **Export all** downloads the current chart as **PNG** plus the plotted series as **CSV**.
 - **Assistant** — Uses **[Ollama](https://ollama.com)** on `127.0.0.1` (default model `llama3.2`, override with `OLLAMA_MODEL`). The app injects **only** text built from `outputs/` + `docs/METHODS_STATUS.md` + sampled rows — it does not browse the web or use API keys. Install Ollama, run `ollama pull llama3.2`, then use **Custom charts** → ask a question.
 
-## Production (WSGI)
+## Production
 
 Do **not** expose to the internet without TLS and authentication in front.
 
@@ -67,12 +67,10 @@ Do **not** expose to the internet without TLS and authentication in front.
 cd /path/to/Data-analysis-legoat
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 -m gunicorn -w 4 -b 127.0.0.1:5050 --timeout 120 "wsgi:app"
+python3 -m gunicorn -w 4 -b 127.0.0.1:5050 --timeout 120 "prod:app"
 ```
 
-Use **`python3 -m gunicorn`** (not bare `gunicorn`) so the interpreter that has Gunicorn installed is the one that runs it. Or run **`./startprod.sh`**, which does that for you.
-
-Or use a Unix socket + reverse proxy (nginx, Caddy). Entry point: **`wsgi:app`** at the repo root.
+Prefer **`python3 -m gunicorn`** so the venv’s Gunicorn runs, or **`./startprod.sh`**. A reverse proxy (nginx, Caddy) can sit in front.
 
 ## Eleven methods
 
