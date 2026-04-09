@@ -3,7 +3,7 @@
 {% block body %}
 <header class="page-head">
   <h1>FireFly Farms analytics</h1>
-  <p class="sub">Local view of <code>outputs/</code> — run <code>./startall.sh</code> to refresh. Use <a href="{{ url_for('dashboard') }}">Custom charts</a> to build graphs from any CSV; see the <a href="{{ url_for('guide') }}">data dictionary</a> for what each file means.</p>
+  <p class="sub">Local view of <code>outputs/</code> — run <code>./startall.sh</code> to refresh. <a href="{{ url_for('order_heatmap_map') }}">Order heatmap</a> (free OpenStreetMap) shows billing-state volume with the farm marked. Use <a href="{{ url_for('dashboard') }}">Custom charts</a> to build graphs from any CSV; see the <a href="{{ url_for('guide') }}">data dictionary</a> for what each file means.</p>
 </header>
 
 <section class="card">

@@ -10,7 +10,15 @@ from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
-from flask import Flask, abort, jsonify, render_template, request, send_file
+from flask import (
+    Flask,
+    abort,
+    jsonify,
+    render_template,
+    request,
+    send_file,
+    url_for,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -125,6 +133,39 @@ def methods():
 @app.route("/dashboard")
 def dashboard():
     return render_template("dashboard.html")
+
+
+@app.route("/map")
+def order_heatmap_map():
+    """Interactive order heatmap: Leaflet + OpenStreetMap (free, no API keys)."""
+    return render_template(
+        "map_heatmap.html",
+        map_config={
+            "dataUrl": url_for("api_order_heatmap"),
+        },
+    )
+
+
+@app.route("/api/order-heatmap")
+def api_order_heatmap():
+    """Billing-state centroids + weights for heatmap; farm marker meta."""
+    from src.state_geo import heatmap_json_from_state_revenue
+
+    p = OUTPUT / "revenue_by_billing_state.csv"
+    weight_by = (request.args.get("weight") or "orders").lower()
+    if weight_by not in ("orders", "revenue"):
+        weight_by = "orders"
+    if not p.exists():
+        payload = heatmap_json_from_state_revenue(pd.DataFrame(), weight_by=weight_by)
+        payload["meta"] = {
+            "source": None,
+            "message": "Run analysis with orders_export_no_pii.csv to generate revenue_by_billing_state.csv.",
+        }
+        return jsonify(payload)
+    df = pd.read_csv(p, low_memory=False)
+    payload = heatmap_json_from_state_revenue(df, weight_by=weight_by)
+    payload["meta"] = {"source": "revenue_by_billing_state.csv", "weight_by": weight_by}
+    return jsonify(payload)
 
 
 @app.route("/preview/<path:rel>")

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Order heatmap — FireFly Farms{% endblock %}
+{% block head_extra %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+{% endblock %}
+{% block body %}
+<header class="page-head">
+  <h1>Order geography — interactive heatmap</h1>
+  <p class="sub">
+    <span class="map-provider-pill osm">Free · OpenStreetMap</span>
+    <strong>Hover</strong> states on the map for a quick summary — <strong>click</strong> circles or the list for full numbers.
+    Red <strong>★</strong> = FireFly Farms (Accident, MD).
+  </p>
+</header>
+
+<section class="card map-heat-card">
+  <p class="btn-row map-heat-controls">
+    <label class="inline-label">Highlight intensity by:
+      <select id="heatmap-weight">
+        <option value="orders" selected>Order count</option>
+        <option value="revenue">Net revenue ($)</option>
+      </select>
+    </label>
+    <span class="map-toggles">
+      <label class="check-inline"><input type="checkbox" id="toggle-heat-layer" checked /> Heat glow</label>
+      <label class="check-inline"><input type="checkbox" id="toggle-circles" checked /> State circles</label>
+    </span>
+    <span id="heatmap-status" class="small muted"></span>
+  </p>
+
+  <div class="map-explorer">
+    <div class="map-explorer-map">
+      <div id="map-heatmap" class="map-heatmap" role="application" aria-label="Interactive order heatmap"></div>
+    </div>
+    <aside class="map-explorer-sidebar" aria-label="Orders by state">
+      <div class="map-sidebar-head">
+        <h3>Orders by state</h3>
+        <p class="small muted sidebar-hint">Click a row to zoom in and open details.</p>
+      </div>
+      <div id="map-state-list" class="map-state-list"></div>
+    </aside>
+  </div>
+
+  <p id="heatmap-empty" class="heatmap-empty small hidden">No geographic data yet. Run <code>python3 run_analysis.py</code> with <code>data/orders_export_no_pii.csv</code>.</p>
+</section>
+
+<script>window.__HEATMAP__ = {{ map_config | tojson }};</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
+<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js" defer></script>
+<script src="{{ url_for('static', filename='map_heatmap.js') }}" defer></script>
+<script>
+document.getElementById("heatmap-weight").addEventListener("change", function () {
+  if (window.__HEATMAP_RERUN__) window.__HEATMAP_RERUN__(this.value);
+});
+document.getElementById("toggle-heat-layer").addEventListener("change", function () {
+  if (window.__HEATMAP_TOGGLE_LAYERS__) {
+    window.__HEATMAP_TOGGLE_LAYERS__({ heat: this.checked });
+  }
+});
+document.getElementById("toggle-circles").addEventListener("change", function () {
+  if (window.__HEATMAP_TOGGLE_LAYERS__) {
+    window.__HEATMAP_TOGGLE_LAYERS__({ circles: this.checked });
+  }
+});
+</script>
+{% endblock %}

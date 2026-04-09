@@ -24,6 +24,14 @@ python3 run_analysis.py
 
 Installs dependencies (in `.venv`), runs `run_analysis.py`, then serves **`http://127.0.0.1:5050`** with the report, charts, and browsable CSV previews from `outputs/`. On the **home** page, **Download all figures (ZIP)** grabs every PNG under `outputs/`. Stop with `Ctrl+C`.
 
+### Order heatmap (interactive, free)
+
+Open **`http://127.0.0.1:5050/map`** after analysis has produced `outputs/revenue_by_billing_state.csv`.
+
+The map uses **[Leaflet](https://leafletjs.com/)** + **[OpenStreetMap](https://www.openstreetmap.org/)** tiles + a heat layer. **No API keys, no Google account, no map billing.** Use responsibly per the [OSM tile usage policy](https://operations.osmfoundation.org/policies/tiles/) (this app is a small local dashboard; for heavy traffic you’d host your own tile server).
+
+## Outputs
+
 Outputs land in **`outputs/`**:
 
 | Output | Description |

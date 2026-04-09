@@ -43,6 +43,7 @@ from src.config import (  # noqa: E402
     SUBSCRIPTIONS_ANNUAL,
 )
 from src.geo_time_orders import revenue_by_month, revenue_by_state  # noqa: E402
+from src.order_geography_map import plot_order_geography_heatmap  # noqa: E402
 from src.lda_customers import customer_product_matrix, fit_lda  # noqa: E402
 from src.order_export import (  # noqa: E402
     completed_orders_mask,
@@ -280,6 +281,11 @@ def main() -> None:
         if not st_df.empty:
             st_df.to_csv(OUTPUT / "revenue_by_billing_state.csv", index=False)
             plot_state_revenue(st_df, FIGURES / "revenue_by_billing_state.png")
+            if plot_order_geography_heatmap(st_df, FIGURES / "orders_geography_heatmap.png"):
+                report_lines.append(
+                    "- **Order geography:** heatmap/bubble map `outputs/figures/orders_geography_heatmap.png` "
+                    "(billing state volume & revenue; farm location marked)."
+                )
 
         mo = revenue_by_month(raw, completed_only=True)
         monthly_orders = mo

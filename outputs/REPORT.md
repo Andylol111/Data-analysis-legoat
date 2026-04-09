@@ -16,6 +16,8 @@ Generated from bundled WooCommerce + GA exports (aggregate + order-level where a
 
 - **Order export:** 1767 rows; exploded line rows: 5837.
 
+- **Order geography:** heatmap/bubble map `outputs/figures/orders_geography_heatmap.png` (billing state volume & revenue; farm location marked).
+
 - **Apriori (from parsed line items):** 70 frequent itemsets; 29 rules.
 
 - **LDA (customer purchase personas):** 243 customers × 35 products; 6 topics.
